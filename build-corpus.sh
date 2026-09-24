@@ -19,7 +19,7 @@ cd "$(dirname "${BASH_SOURCE[0]}")"
 
 UA="shisho-demo-corpus (https://github.com/shishobooks/demo-corpus)"
 DL=.downloads
-LIB=library
+LIB=${LIB:-library}
 
 # Comic pages are downscaled to this longest edge and JPEG quality.
 PAGE_MAX_PX=1600
@@ -190,13 +190,36 @@ fi
 
 PC_CREDIT="Pepper&Carrot by David Revoy, https://www.peppercarrot.com, CC BY 4.0. Pages downscaled and packed into CBZ for the Shisho demo."
 
-# build_peppercarrot <episode number> <slug> <title> <last page> <year> <month> <day>
+# The page-zero header of each episode is a wide title banner, which makes a
+# poor portrait cover. build_cover composes one: the episode's own lettering
+# on a white band above a 4:5 crop of a text-free panel, at 2:3 overall. It
+# becomes the first page of the CBZ, which is where Shisho reads a comic's
+# cover from (CBZ covers cannot be replaced by upload).
+#
+# build_cover <episode number> <slug> <page> <crop WxH+X+Y> <output jpg>
+build_cover() {
+  local ep=$1 slug=$2 page=$3 crop=$4 out=$5
+  local base="https://www.peppercarrot.com/0_sources/$slug/hi-res"
+  local gfx="$DL/peppercarrot/ep$ep/gfx-E${ep}P${page}.jpg"
+  local staging="$DL/peppercarrot/ep$ep-cover"
+  fetch "$base/gfx-only/gfx_Pepper-and-Carrot_by-David-Revoy_E${ep}P${page}.jpg" "$gfx"
+  rm -rf "$staging"
+  mkdir -p "$staging"
+  magick "$DL/peppercarrot/ep$ep/E${ep}P00.jpg" -trim +repage -resize 1040x220 \
+    -background white -gravity center -extent 1200x300 "$staging/header.png"
+  magick "$gfx" -crop "$crop" +repage -resize 1200x1500^ -gravity center -extent 1200x1500 "$staging/art.jpg"
+  magick "$staging/header.png" "$staging/art.jpg" -append -strip -quality 88 "$out"
+  rm -rf "$staging"
+}
+
+# build_peppercarrot <episode number> <slug> <title> <last page> <year> <month> <day> <cover page> <cover crop>
 build_peppercarrot() {
-  local ep=$1 slug=$2 title=$3 last=$4 year=$5 month=$6 day=$7
+  local ep=$1 slug=$2 title=$3 last=$4 year=$5 month=$6 day=$7 cover_page=$8 cover_crop=$9
   local base="https://www.peppercarrot.com/0_sources/$slug/hi-res"
   local staging="$DL/peppercarrot/ep$ep-staging"
   local page
-  if [ -e "$LIB/Pepper and Carrot/Episode $ep - $title/Pepper and Carrot - Episode $ep - $title.cbz" ]; then
+  local cbz="$LIB/Pepper and Carrot/Episode $ep - $title/Pepper and Carrot - Episode $ep - $title.cbz"
+  if [ -e "$cbz" ]; then
     log "exists   Pepper and Carrot episode $ep"
     return
   fi
@@ -206,14 +229,18 @@ build_peppercarrot() {
     fetch "$base/en_Pepper-and-Carrot_by-David-Revoy_E${ep}P${page}.jpg" "$DL/peppercarrot/ep$ep/E${ep}P${page}.jpg"
     downscale "$DL/peppercarrot/ep$ep/E${ep}P${page}.jpg" "$staging/P${page}.jpg"
   done
+  # "000-cover" sorts before "P00" inside the archive, so it is page one.
+  build_cover "$ep" "$slug" "$cover_page" "$cover_crop" "$staging/000-cover.jpg"
   write_comicinfo "$staging" "$title" "Pepper&Carrot" "$ep" "$year" "$month" "$day" "David Revoy" "David Revoy" \
     "https://www.peppercarrot.com/en/webcomic/$slug.html" "$PC_CREDIT"
   pack_cbz "$staging" "Pepper and Carrot/Episode $ep - $title" "Pepper and Carrot - Episode $ep - $title.cbz"
   rm -rf "$staging"
 }
 
-build_peppercarrot 24 "ep24_The-Unity-Tree" "The Unity Tree" 8 2017 12 15
-build_peppercarrot 25 "ep25_There-are-no-Shortcuts" "There are no Shortcuts" 10 2018 5 28
+# Cover panels: episode 24 uses the library scene at the top of page 5 (the
+# site's own thumbnail for the episode); episode 25 uses the big panel on page 7.
+build_peppercarrot 24 "ep24_The-Unity-Tree" "The Unity Tree" 8 2017 12 15 05 "1106x1382+900+0"
+build_peppercarrot 25 "ep25_There-are-no-Shortcuts" "There are no Shortcuts" 10 2018 5 28 07 "1135x1418+673+1134"
 
 # ---------------------------------------------------------------------------
 # Planet Comics (Fiction House, 1940), United States public domain

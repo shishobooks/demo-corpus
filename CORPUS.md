@@ -81,7 +81,7 @@ Names and marks of the projects credited below are used only to identify the wor
 - Source: <https://www.peppercarrot.com/> (English hi-res page images from the episode source folders)
 - License: CC BY 4.0, <https://creativecommons.org/licenses/by/4.0/>
 - Credit: Pepper&Carrot by David Revoy, <https://www.peppercarrot.com>, licensed CC BY 4.0.
-- Modifications: the page images were downscaled to 1600 px on the longest edge, saved as JPEG at quality 80, and packed into CBZ files with a generated `ComicInfo.xml`.
+- Modifications: the page images were downscaled to 1600 px on the longest edge, saved as JPEG at quality 80, and packed into CBZ files with a generated `ComicInfo.xml`. A portrait cover composed from the episode's own title lettering and a crop of one text-free panel (episode 24: page 5; episode 25: page 7) was added as the first page of each CBZ, because the wide page-zero banner does not work as a cover.
 
 ### Planet Comics, issues 1, 3, and 5
 
