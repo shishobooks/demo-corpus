@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "url": "https://www.gutenberg.org/ebooks/844",
+  "publisher": "Standard Ebooks",
+  "release_date": "2014-05-25",
+  "name": "The Importance of Being Earnest",
+  "chapters": [
+    {
+      "title": "Titlepage",
+      "href": "text/titlepage.xhtml"
+    },
+    {
+      "title": "Act I",
+      "href": "text/act-1.xhtml"
+    },
+    {
+      "title": "Imprint",
+      "href": "text/imprint.xhtml"
+    },
+    {
+      "title": "Act II",
+      "href": "text/act-2.xhtml"
+    },
+    {
+      "title": "Dramatis Personae",
+      "href": "text/dramatis-personae.xhtml"
+    },
+    {
+      "title": "Act III",
+      "href": "text/act-3.xhtml"
+    },
+    {
+      "title": "The Scenes of the Play",
+      "href": "text/the-scenes-of-the-play.xhtml"
+    },
+    {
+      "title": "The Importance of Being Earnest",
+      "href": "text/halftitlepage.xhtml",
+      "children": [
+        {
+          "title": "Act I",
+          "href": "text/act-1.xhtml"
+        },
+        {
+          "title": "Act II",
+          "href": "text/act-2.xhtml"
+        },
+        {
+          "title": "Act III",
+          "href": "text/act-3.xhtml"
+        }
+      ]
+    },
+    {
+      "title": "Colophon",
+      "href": "text/colophon.xhtml"
+    },
+    {
+      "title": "Uncopyright",
+      "href": "text/uncopyright.xhtml"
+    }
+  ],
+  "language": "en-GB"
+}

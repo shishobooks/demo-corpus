@@ -1,0 +1,241 @@
+{
+  "version": 1,
+  "release_date": "2012-10-28",
+  "name": "Open Advice",
+  "chapters": [
+    {
+      "title": "I Ideas and Innovation",
+      "start_page": 16
+    },
+    {
+      "title": "1 Code First",
+      "start_page": 18
+    },
+    {
+      "title": "2 Everyone Else Might Be Wrong, But Probably Not",
+      "start_page": 20
+    },
+    {
+      "title": "II Research",
+      "start_page": 24
+    },
+    {
+      "title": "3 Out of the Lab, into the Wild",
+      "start_page": 26
+    },
+    {
+      "title": "4 Prepare for the Future: Evolution of Teams in FLOSS",
+      "start_page": 34
+    },
+    {
+      "title": "III Mentoring and Recruiting",
+      "start_page": 42
+    },
+    {
+      "title": "5 You’ll Eventually Know Everything They’ve Forgotten",
+      "start_page": 44
+    },
+    {
+      "title": "6 University and Community",
+      "start_page": 48
+    },
+    {
+      "title": "7 Being Allowed to Do Awesome",
+      "start_page": 54
+    },
+    {
+      "title": "IV Infrastructure",
+      "start_page": 56
+    },
+    {
+      "title": "8 Love the Unknown",
+      "start_page": 58
+    },
+    {
+      "title": "9 Backups to Maintain Sanity",
+      "start_page": 64
+    },
+    {
+      "title": "V Code",
+      "start_page": 68
+    },
+    {
+      "title": "10 The Art of Problem Solving",
+      "start_page": 70
+    },
+    {
+      "title": "11 Cross-Project Collaboration",
+      "start_page": 78
+    },
+    {
+      "title": "12 Writing Patches",
+      "start_page": 84
+    },
+    {
+      "title": "VI Quality Assurance",
+      "start_page": 90
+    },
+    {
+      "title": "13 Given Enough Eyeballs, Not All Bugs are Shallow",
+      "start_page": 92
+    },
+    {
+      "title": "14 Kick, Push",
+      "start_page": 98
+    },
+    {
+      "title": "15 Test-Driven Enlightenment",
+      "start_page": 102
+    },
+    {
+      "title": "VII Documentation and Support",
+      "start_page": 108
+    },
+    {
+      "title": "16 Life-Changer Documentation for Novices",
+      "start_page": 110
+    },
+    {
+      "title": "17 Good Manners Matter",
+      "start_page": 114
+    },
+    {
+      "title": "18 Documentation and My Former Self",
+      "start_page": 120
+    },
+    {
+      "title": "19 Stop Worrying and Love the Crowd",
+      "start_page": 124
+    },
+    {
+      "title": "VIII Translation",
+      "start_page": 128
+    },
+    {
+      "title": "20 My Project Taught Me how to Grow Up",
+      "start_page": 130
+    },
+    {
+      "title": "IX Usability",
+      "start_page": 134
+    },
+    {
+      "title": "21 Learn from Your Users",
+      "start_page": 136
+    },
+    {
+      "title": "22 Software that Has the Quality Without A Name",
+      "start_page": 142
+    },
+    {
+      "title": "X Artwork and Design",
+      "start_page": 160
+    },
+    {
+      "title": "23 Don't Be Shy",
+      "start_page": 162
+    },
+    {
+      "title": "24 Use of Color and Images in Design Practices",
+      "start_page": 168
+    },
+    {
+      "title": "XI Community Management",
+      "start_page": 174
+    },
+    {
+      "title": "25 How Not to Start a Community",
+      "start_page": 176
+    },
+    {
+      "title": "26 Hindsight is Almost 20/20",
+      "start_page": 180
+    },
+    {
+      "title": "27 Things I'm Happy I Didn't Know",
+      "start_page": 196
+    },
+    {
+      "title": "XII Packaging",
+      "start_page": 200
+    },
+    {
+      "title": "28 From Beginner to Professional",
+      "start_page": 202
+    },
+    {
+      "title": "29 Packaging - Providing a Great Route into Free Software",
+      "start_page": 206
+    },
+    {
+      "title": "30 Where Upstream and Downstream Meet",
+      "start_page": 212
+    },
+    {
+      "title": "XIII Promotion",
+      "start_page": 218
+    },
+    {
+      "title": "31 Finding Your Feet in a Free Software Promotion Team",
+      "start_page": 220
+    },
+    {
+      "title": "32 Big Plans Don't Work",
+      "start_page": 224
+    },
+    {
+      "title": "33 Who are You, What are You Selling, and Why Should I Care?",
+      "start_page": 230
+    },
+    {
+      "title": "XIV Conferences and Sprints",
+      "start_page": 236
+    },
+    {
+      "title": "34 People are Everything",
+      "start_page": 238
+    },
+    {
+      "title": "35 Getting People Together",
+      "start_page": 242
+    },
+    {
+      "title": "36 We're Not Crazy … We're Conference Organizers!",
+      "start_page": 254
+    },
+    {
+      "title": "37 How to Ask for Money",
+      "start_page": 260
+    },
+    {
+      "title": "XV Business",
+      "start_page": 268
+    },
+    {
+      "title": "38 Free Software in Public Administrations",
+      "start_page": 270
+    },
+    {
+      "title": "39 Underestimating the Value of a Free Software Business Model",
+      "start_page": 278
+    },
+    {
+      "title": "40 Free and Open Source-Based Business Models",
+      "start_page": 286
+    },
+    {
+      "title": "XVI Legal and Policy",
+      "start_page": 298
+    },
+    {
+      "title": "41 On being a Lawyer in FOSS",
+      "start_page": 300
+    },
+    {
+      "title": "42 Building Bridges",
+      "start_page": 304
+    }
+  ],
+  "cover_page": 0,
+  "language": "en"
+}

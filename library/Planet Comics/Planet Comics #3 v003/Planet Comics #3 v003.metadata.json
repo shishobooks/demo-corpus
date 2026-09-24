@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "title": "Planet Comics #3",
+  "sort_title": "Planet Comics #3",
+  "description": "Issue 3 of Fiction House's science-fiction anthology, March 1940, continuing the Golden Age space adventures of Flint Baker, Auro, and company.\n\nCredit: Planet Comics, Fiction House, 1940, scans via archive.org, downscaled and repacked. United States public domain (copyright not renewed).",
+  "series": [
+    {
+      "name": "Planet Comics",
+      "sort_name": "Planet Comics",
+      "number": 3,
+      "unit": "volume",
+      "sort_order": 1
+    }
+  ],
+  "genres": [
+    "Comics",
+    "Science Fiction"
+  ],
+  "tags": [
+    "golden age",
+    "pulp"
+  ]
+}

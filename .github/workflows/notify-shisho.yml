@@ -1,0 +1,17 @@
+name: Notify Shisho
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  dispatch:
+    name: Trigger demo deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send repository_dispatch to shishobooks/shisho
+        env:
+          # Fine-grained token with Contents read and write on shishobooks/shisho.
+          GH_TOKEN: ${{ secrets.SHISHO_DISPATCH_TOKEN }}
+        run: gh api repos/shishobooks/shisho/dispatches -f event_type=demo-corpus-updated

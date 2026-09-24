@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "title": "There are no Shortcuts",
+  "sort_title": "There are no Shortcuts",
+  "description": "Pepper wants results fast and reaches for a potion instead of practice. Episode 25 of the free and open webcomic.\n\nCredit: Pepper\u0026Carrot by David Revoy, peppercarrot.com, pages downscaled and packed into CBZ. License: CC BY 4.0.",
+  "authors": [
+    {
+      "name": "David Revoy",
+      "sort_name": "Revoy, David",
+      "sort_order": 1,
+      "role": "writer"
+    },
+    {
+      "name": "David Revoy",
+      "sort_name": "Revoy, David",
+      "sort_order": 2,
+      "role": "penciller"
+    }
+  ],
+  "series": [
+    {
+      "name": "Pepper\u0026Carrot",
+      "sort_name": "Pepper\u0026Carrot",
+      "number": 25,
+      "sort_order": 1
+    }
+  ],
+  "genres": [
+    "Comics",
+    "Fantasy"
+  ],
+  "tags": [
+    "webcomic"
+  ]
+}

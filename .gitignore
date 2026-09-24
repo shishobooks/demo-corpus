@@ -1,0 +1,13 @@
+# Upstream downloads and scratch space for build-corpus.sh
+.downloads/
+# Shisho's runtime cache (page renders, generated downloads). Never commit it.
+config/cache/
+# Operating system noise
+.DS_Store
+._*
+Thumbs.db
+# Written by the Caddy layer of pre-single-binary release images
+config/caddy/
+# SQLite side files; the committed database is always checkpointed
+config/shisho.db-shm
+config/shisho.db-wal

@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "title": "Software Engineering",
+  "sort_title": "Software Engineering",
+  "subtitle": "Standing on the Shoulders of Giants",
+  "description": "A modern, openly developed textbook on software engineering practice: requirements, design, testing, delivery, and the people side of building systems. Generic pseudocode edition, release 1.0b16. The project notes that its prose was drafted with AI assistance under author direction and review.\n\nCredit: Software Engineering: Standing on the Shoulders of Giants, by the open contributors of the open-swe-book repository (release 1.0b16). License: CC BY-SA 4.0 (prose), MIT (code).",
+  "authors": [
+    {
+      "name": "Thomas Hastings",
+      "sort_name": "Hastings, Thomas",
+      "sort_order": 1
+    }
+  ],
+  "genres": [
+    "Nonfiction",
+    "Technology"
+  ],
+  "tags": [
+    "software engineering",
+    "textbook"
+  ]
+}

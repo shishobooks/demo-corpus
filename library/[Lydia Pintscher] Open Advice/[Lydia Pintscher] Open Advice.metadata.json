@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "title": "Open Advice",
+  "sort_title": "Open Advice",
+  "subtitle": "FOSS: What We Wish We Had Known When We Started",
+  "description": "Forty-two free software contributors share the advice they wish they had received when they started: how projects work, how to get involved, and what keeps communities healthy. Edited by Lydia Pintscher.\n\nCredit: Open Advice, edited by Lydia Pintscher and the contributors listed in the book, open-advice.org. License: CC BY-SA 3.0.",
+  "authors": [
+    {
+      "name": "Lydia Pintscher",
+      "sort_name": "Pintscher, Lydia",
+      "sort_order": 1
+    }
+  ],
+  "genres": [
+    "Nonfiction",
+    "Technology"
+  ],
+  "tags": [
+    "Free Software",
+    "community"
+  ]
+}

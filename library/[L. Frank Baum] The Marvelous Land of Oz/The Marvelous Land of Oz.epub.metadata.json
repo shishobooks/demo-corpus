@@ -1,0 +1,232 @@
+{
+  "version": 1,
+  "url": "https://www.gutenberg.org/ebooks/54",
+  "publisher": "Standard Ebooks",
+  "release_date": "2020-06-23",
+  "name": "The Marvelous Land of Oz",
+  "chapters": [
+    {
+      "title": "Titlepage",
+      "href": "text/titlepage.xhtml"
+    },
+    {
+      "title": "Tip Manufactures a Pumpkinhead",
+      "href": "text/chapter-1.xhtml"
+    },
+    {
+      "title": "Imprint",
+      "href": "text/imprint.xhtml"
+    },
+    {
+      "title": "The Marvelous Powder of Life",
+      "href": "text/chapter-2.xhtml"
+    },
+    {
+      "title": "Author’s Note",
+      "href": "text/foreword.xhtml"
+    },
+    {
+      "title": "The Flight of the Fugitives",
+      "href": "text/chapter-3.xhtml"
+    },
+    {
+      "title": "Dedication",
+      "href": "text/dedication.xhtml"
+    },
+    {
+      "title": "Tip Makes an Experiment in Magic",
+      "href": "text/chapter-4.xhtml"
+    },
+    {
+      "title": "The Marvelous Land of Oz",
+      "href": "text/halftitlepage.xhtml",
+      "children": [
+        {
+          "title": "Tip Manufactures a Pumpkinhead",
+          "href": "text/chapter-1.xhtml"
+        },
+        {
+          "title": "The Marvelous Powder of Life",
+          "href": "text/chapter-2.xhtml"
+        },
+        {
+          "title": "The Flight of the Fugitives",
+          "href": "text/chapter-3.xhtml"
+        },
+        {
+          "title": "Tip Makes an Experiment in Magic",
+          "href": "text/chapter-4.xhtml"
+        },
+        {
+          "title": "The Awakening of the Sawhorse",
+          "href": "text/chapter-5.xhtml"
+        },
+        {
+          "title": "Jack Pumpkinhead’s Ride to the Emerald City",
+          "href": "text/chapter-6.xhtml"
+        },
+        {
+          "title": "His Majesty the Scarecrow",
+          "href": "text/chapter-7.xhtml"
+        },
+        {
+          "title": "General Jinjur’s Army of Revolt",
+          "href": "text/chapter-8.xhtml"
+        },
+        {
+          "title": "The Scarecrow Plans an Escape",
+          "href": "text/chapter-9.xhtml"
+        },
+        {
+          "title": "The Journey to the Tin Woodman",
+          "href": "text/chapter-10.xhtml"
+        },
+        {
+          "title": "A Nickel-Plated Emperor",
+          "href": "text/chapter-11.xhtml"
+        },
+        {
+          "title": "Mr. H. M. Woggle-Bug, T.E.",
+          "href": "text/chapter-12.xhtml"
+        },
+        {
+          "title": "A Highly Magnified History",
+          "href": "text/chapter-13.xhtml"
+        },
+        {
+          "title": "Old Mombi Indulges in Witchcraft",
+          "href": "text/chapter-14.xhtml"
+        },
+        {
+          "title": "The Prisoners of the Queen",
+          "href": "text/chapter-15.xhtml"
+        },
+        {
+          "title": "The Scarecrow Takes Time to Think",
+          "href": "text/chapter-16.xhtml"
+        },
+        {
+          "title": "The Astonishing Flight of the Gump",
+          "href": "text/chapter-17.xhtml"
+        },
+        {
+          "title": "In the Jackdaw’s Nest",
+          "href": "text/chapter-18.xhtml"
+        },
+        {
+          "title": "Dr. Nikidik’s Famous Wishing Pills",
+          "href": "text/chapter-19.xhtml"
+        },
+        {
+          "title": "The Scarecrow Appeals to Glinda the Good",
+          "href": "text/chapter-20.xhtml"
+        },
+        {
+          "title": "The Tin-Woodman Plucks a Rose",
+          "href": "text/chapter-21.xhtml"
+        },
+        {
+          "title": "The Transformation of Old Mombi",
+          "href": "text/chapter-22.xhtml"
+        },
+        {
+          "title": "Princess Ozma of Oz",
+          "href": "text/chapter-23.xhtml"
+        },
+        {
+          "title": "The Riches of Content",
+          "href": "text/chapter-24.xhtml"
+        }
+      ]
+    },
+    {
+      "title": "The Awakening of the Sawhorse",
+      "href": "text/chapter-5.xhtml"
+    },
+    {
+      "title": "Jack Pumpkinhead’s Ride to the Emerald City",
+      "href": "text/chapter-6.xhtml"
+    },
+    {
+      "title": "Colophon",
+      "href": "text/colophon.xhtml"
+    },
+    {
+      "title": "His Majesty the Scarecrow",
+      "href": "text/chapter-7.xhtml"
+    },
+    {
+      "title": "Uncopyright",
+      "href": "text/uncopyright.xhtml"
+    },
+    {
+      "title": "General Jinjur’s Army of Revolt",
+      "href": "text/chapter-8.xhtml"
+    },
+    {
+      "title": "The Scarecrow Plans an Escape",
+      "href": "text/chapter-9.xhtml"
+    },
+    {
+      "title": "The Journey to the Tin Woodman",
+      "href": "text/chapter-10.xhtml"
+    },
+    {
+      "title": "A Nickel-Plated Emperor",
+      "href": "text/chapter-11.xhtml"
+    },
+    {
+      "title": "Mr. H. M. Woggle-Bug, T.E.",
+      "href": "text/chapter-12.xhtml"
+    },
+    {
+      "title": "A Highly Magnified History",
+      "href": "text/chapter-13.xhtml"
+    },
+    {
+      "title": "Old Mombi Indulges in Witchcraft",
+      "href": "text/chapter-14.xhtml"
+    },
+    {
+      "title": "The Prisoners of the Queen",
+      "href": "text/chapter-15.xhtml"
+    },
+    {
+      "title": "The Scarecrow Takes Time to Think",
+      "href": "text/chapter-16.xhtml"
+    },
+    {
+      "title": "The Astonishing Flight of the Gump",
+      "href": "text/chapter-17.xhtml"
+    },
+    {
+      "title": "In the Jackdaw’s Nest",
+      "href": "text/chapter-18.xhtml"
+    },
+    {
+      "title": "Dr. Nikidik’s Famous Wishing Pills",
+      "href": "text/chapter-19.xhtml"
+    },
+    {
+      "title": "The Scarecrow Appeals to Glinda the Good",
+      "href": "text/chapter-20.xhtml"
+    },
+    {
+      "title": "The Tin-Woodman Plucks a Rose",
+      "href": "text/chapter-21.xhtml"
+    },
+    {
+      "title": "The Transformation of Old Mombi",
+      "href": "text/chapter-22.xhtml"
+    },
+    {
+      "title": "Princess Ozma of Oz",
+      "href": "text/chapter-23.xhtml"
+    },
+    {
+      "title": "The Riches of Content",
+      "href": "text/chapter-24.xhtml"
+    }
+  ],
+  "language": "en-US"
+}

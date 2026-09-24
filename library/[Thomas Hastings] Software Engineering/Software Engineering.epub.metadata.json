@@ -1,0 +1,3245 @@
+{
+  "version": 1,
+  "publisher": "swebook.org",
+  "release_date": "2026-07-27",
+  "name": "Software Engineering",
+  "chapters": [
+    {
+      "title": "Software Engineering",
+      "href": "text/title_page.xhtml"
+    },
+    {
+      "title": "Who this book is for",
+      "href": "text/ch001.xhtml#who-this-book-is-for"
+    },
+    {
+      "title": "1.1 What Is Software Engineering?",
+      "href": "text/ch002.xhtml#id_11-what-is-software-engineering"
+    },
+    {
+      "title": "Concepts",
+      "href": "text/ch003.xhtml#concepts"
+    },
+    {
+      "title": "What software engineering is",
+      "href": "text/ch004.xhtml#what-software-engineering-is"
+    },
+    {
+      "title": "2.1 Processes and Values Guide Development",
+      "href": "text/ch005.xhtml#id_21-processes-and-values-guide-development"
+    },
+    {
+      "title": "Processes and values (§2.1)",
+      "href": "text/ch006.xhtml#processes-and-values-21"
+    },
+    {
+      "title": "Foundational values",
+      "href": "text/ch007.xhtml#foundational-values"
+    },
+    {
+      "title": "3.1 What Is a Requirement?",
+      "href": "text/ch008.xhtml#id_31-what-is-a-requirement"
+    },
+    {
+      "title": "Concepts",
+      "href": "text/ch009.xhtml#concepts-1"
+    },
+    {
+      "title": "User stories, features, and BDD",
+      "href": "text/ch010.xhtml#user-stories-features-and-bdd"
+    },
+    {
+      "title": "4.1 A Checklist Approach",
+      "href": "text/ch011.xhtml#id_41-a-checklist-approach"
+    },
+    {
+      "title": "Concepts",
+      "href": "text/ch012.xhtml#concepts-2"
+    },
+    {
+      "title": "Relative estimation, story points, and velocity",
+      "href": "text/ch013.xhtml#relative-estimation-story-points-and-velocity"
+    },
+    {
+      "title": "5.1 Elements of a Use Case",
+      "href": "text/ch014.xhtml#id_51-elements-of-a-use-case"
+    },
+    {
+      "title": "Concepts",
+      "href": "text/ch015.xhtml#concepts-3"
+    },
+    {
+      "title": "Foundations: what a use case is",
+      "href": "text/ch016.xhtml#foundations-what-a-use-case-is"
+    },
+    {
+      "title": "6.1 The Role of Architecture",
+      "href": "text/ch017.xhtml#id_61-the-role-of-architecture"
+    },
+    {
+      "title": "Concepts",
+      "href": "text/ch018.xhtml#concepts-4"
+    },
+    {
+      "title": "Modularity, abstraction, and interfaces",
+      "href": "text/ch019.xhtml#modularity-abstraction-and-interfaces"
+    },
+    {
+      "title": "7.1 Software Layering",
+      "href": "text/ch020.xhtml#id_71-software-layering"
+    },
+    {
+      "title": "Concepts",
+      "href": "text/ch021.xhtml#concepts-5"
+    },
+    {
+      "title": "Pattern catalogs (use across the whole chapter)",
+      "href": "text/ch022.xhtml#pattern-catalogs-use-across-the-whole-chapter"
+    },
+    {
+      "title": "8.1 Why Version Control",
+      "href": "text/ch023.xhtml#id_81-why-version-control"
+    },
+    {
+      "title": "Concepts",
+      "href": "text/ch024.xhtml#concepts-6"
+    },
+    {
+      "title": "Foundations: what Git is and how it works (used in §8.1)",
+      "href": "text/ch025.xhtml#foundations-what-git-is-and-how-it-works-used-in-81"
+    },
+    {
+      "title": "9.1 Architecture Reviews",
+      "href": "text/ch026.xhtml#id_91-architecture-reviews"
+    },
+    {
+      "title": "Concepts",
+      "href": "text/ch027.xhtml#concepts-7"
+    },
+    {
+      "title": "Code review (used in §9.3)",
+      "href": "text/ch028.xhtml#code-review-used-in-93"
+    },
+    {
+      "title": "10.1 Overview of Testing",
+      "href": "text/ch029.xhtml#id_101-overview-of-testing"
+    },
+    {
+      "title": "Concepts",
+      "href": "text/ch030.xhtml#concepts-8"
+    },
+    {
+      "title": "Foundations: what to test and how",
+      "href": "text/ch031.xhtml#foundations-what-to-test-and-how"
+    },
+    {
+      "title": "11.1 Security Is a Lifecycle Property",
+      "href": "text/ch032.xhtml#id_111-security-is-a-lifecycle-property"
+    },
+    {
+      "title": "Concepts",
+      "href": "text/ch033.xhtml#concepts-9"
+    },
+    {
+      "title": "The OWASP Top 10 and hands-on practice",
+      "href": "text/ch034.xhtml#the-owasp-top-10-and-hands-on-practice"
+    },
+    {
+      "title": "12.1 Meaningful Metrics",
+      "href": "text/ch035.xhtml#id_121-meaningful-metrics"
+    },
+    {
+      "title": "Concepts",
+      "href": "text/ch036.xhtml#concepts-10"
+    },
+    {
+      "title": "Statistics foundations (§§12.6–12.9)",
+      "href": "text/ch037.xhtml#statistics-foundations-126129"
+    },
+    {
+      "title": "13.1 What AI Changes — and What It Doesn’t",
+      "href": "text/ch038.xhtml#id_131-what-ai-changes--and-what-it-doesnt"
+    },
+    {
+      "title": "Concepts",
+      "href": "text/ch039.xhtml#concepts-11"
+    },
+    {
+      "title": "The o16g manifesto (used in §13.4)",
+      "href": "text/ch040.xhtml#the-o16g-manifesto-used-in-134"
+    },
+    {
+      "title": "14.1 SaaS and the Cloud",
+      "href": "text/ch041.xhtml#id_141-saas-and-the-cloud"
+    },
+    {
+      "title": "Concepts",
+      "href": "text/ch042.xhtml#concepts-12"
+    },
+    {
+      "title": "Primary sources for the case studies",
+      "href": "text/ch043.xhtml#primary-sources-for-the-case-studies"
+    },
+    {
+      "title": "15.1 What Makes Code Legacy",
+      "href": "text/ch044.xhtml#id_151-what-makes-code-legacy"
+    },
+    {
+      "title": "Concepts",
+      "href": "text/ch045.xhtml#concepts-13"
+    },
+    {
+      "title": "Legacy code, refactoring, and technical debt",
+      "href": "text/ch046.xhtml#legacy-code-refactoring-and-technical-debt"
+    },
+    {
+      "title": "A.1 Overview",
+      "href": "text/ch047.xhtml#a1-overview"
+    },
+    {
+      "title": "Dual hats: every team is both customer and developer",
+      "href": "text/ch048.xhtml#dual-hats-every-team-is-both-customer-and-developer"
+    },
+    {
+      "title": "Weeks 1–2 — Team and idea",
+      "href": "text/ch049.xhtml#weeks-12--team-and-idea"
+    },
+    {
+      "title": "Running a team project end to end",
+      "href": "text/ch050.xhtml#running-a-team-project-end-to-end"
+    },
+    {
+      "title": "1. Problem",
+      "href": "text/ch051.xhtml#id_1-problem"
+    },
+    {
+      "title": "1. Problem statement",
+      "href": "text/ch052.xhtml#id_1-problem-statement"
+    },
+    {
+      "title": "1. Sprint goal",
+      "href": "text/ch053.xhtml#id_1-sprint-goal"
+    },
+    {
+      "title": "1. Summary",
+      "href": "text/ch054.xhtml#id_1-summary"
+    },
+    {
+      "title": "1. Retrospective: keep / change / try",
+      "href": "text/ch055.xhtml#id_1-retrospective-keep--change--try"
+    },
+    {
+      "title": "1. Problem and users",
+      "href": "text/ch056.xhtml#id_1-problem-and-users"
+    },
+    {
+      "title": "1. What I built",
+      "href": "text/ch057.xhtml#id_1-what-i-built"
+    },
+    {
+      "title": "The four anchor courses",
+      "href": "text/ch058.xhtml#the-four-anchor-courses"
+    },
+    {
+      "title": "Variant A: 15-week milestone track",
+      "href": "text/ch059.xhtml#variant-a-15-week-milestone-track"
+    },
+    {
+      "title": "Ground rules",
+      "href": "text/ch060.xhtml#ground-rules"
+    },
+    {
+      "title": "Software Engineering: Standing on the Shoulders of Giants",
+      "href": "text/ch001.xhtml#software-engineering-standing-on-the-shoulders-of-giants",
+      "children": [
+        {
+          "title": "Who this book is for",
+          "href": "text/ch001.xhtml#who-this-book-is-for"
+        },
+        {
+          "title": "Why this book exists",
+          "href": "text/ch001.xhtml#why-this-book-exists"
+        },
+        {
+          "title": "How the book is organized",
+          "href": "text/ch001.xhtml#how-the-book-is-organized"
+        },
+        {
+          "title": "Suggested paths through the book",
+          "href": "text/ch001.xhtml#suggested-paths-through-the-book"
+        },
+        {
+          "title": "Code examples in six languages",
+          "href": "text/ch001.xhtml#code-examples-in-six-languages"
+        },
+        {
+          "title": "How this book was made (AI assistance)",
+          "href": "text/ch001.xhtml#how-this-book-was-made-ai-assistance"
+        },
+        {
+          "title": "About the author",
+          "href": "text/ch001.xhtml#about-the-author"
+        },
+        {
+          "title": "If this book helped you",
+          "href": "text/ch001.xhtml#if-this-book-helped-you"
+        },
+        {
+          "title": "Citing this book",
+          "href": "text/ch001.xhtml#citing-this-book"
+        },
+        {
+          "title": "Copyright and license",
+          "href": "text/ch001.xhtml#copyright-and-license"
+        }
+      ]
+    },
+    {
+      "title": "Why this book exists",
+      "href": "text/ch001.xhtml#why-this-book-exists"
+    },
+    {
+      "title": "1.2 The Requirements Challenge",
+      "href": "text/ch002.xhtml#id_12-the-requirements-challenge"
+    },
+    {
+      "title": "Analysis",
+      "href": "text/ch003.xhtml#analysis"
+    },
+    {
+      "title": "Origins of the discipline (used in §1.1.3)",
+      "href": "text/ch004.xhtml#origins-of-the-discipline-used-in-113"
+    },
+    {
+      "title": "2.2 Structuring Teamwork: The Scrum Framework",
+      "href": "text/ch005.xhtml#id_22-structuring-teamwork-the-scrum-framework"
+    },
+    {
+      "title": "Scrum (§2.2)",
+      "href": "text/ch006.xhtml#scrum-22"
+    },
+    {
+      "title": "Plan-driven and risk-driven models (primary sources)",
+      "href": "text/ch007.xhtml#plan-driven-and-risk-driven-models-primary-sources"
+    },
+    {
+      "title": "3.2 Developing Requirements and Software",
+      "href": "text/ch008.xhtml#id_32-developing-requirements-and-software"
+    },
+    {
+      "title": "Analysis",
+      "href": "text/ch009.xhtml#analysis-1"
+    },
+    {
+      "title": "Gherkin, Given/When/Then, and BDD",
+      "href": "text/ch010.xhtml#gherkin-givenwhenthen-and-bdd"
+    },
+    {
+      "title": "4.2 Relative Estimation: Iteration Planning",
+      "href": "text/ch011.xhtml#id_42-relative-estimation-iteration-planning"
+    },
+    {
+      "title": "Estimation and forecasting",
+      "href": "text/ch012.xhtml#estimation-and-forecasting"
+    },
+    {
+      "title": "Consensus estimation: Planning Poker and Delphi",
+      "href": "text/ch013.xhtml#consensus-estimation-planning-poker-and-delphi"
+    },
+    {
+      "title": "5.2 Alternative Flows: Conditional Behaviors",
+      "href": "text/ch014.xhtml#id_52-alternative-flows-conditional-behaviors"
+    },
+    {
+      "title": "Analysis",
+      "href": "text/ch015.xhtml#analysis-2"
+    },
+    {
+      "title": "Notation and diagrams",
+      "href": "text/ch016.xhtml#notation-and-diagrams"
+    },
+    {
+      "title": "6.2 Designing Modular Systems",
+      "href": "text/ch017.xhtml#id_62-designing-modular-systems"
+    },
+    {
+      "title": "Analysis",
+      "href": "text/ch018.xhtml#analysis-3"
+    },
+    {
+      "title": "Coupling, cohesion, and design principles",
+      "href": "text/ch019.xhtml#coupling-cohesion-and-design-principles"
+    },
+    {
+      "title": "7.2 Three Building Blocks",
+      "href": "text/ch020.xhtml#id_72-three-building-blocks"
+    },
+    {
+      "title": "Analysis",
+      "href": "text/ch021.xhtml#analysis-4"
+    },
+    {
+      "title": "Dataflow, streams, and big data (§7.4)",
+      "href": "text/ch022.xhtml#dataflow-streams-and-big-data-74"
+    },
+    {
+      "title": "8.2 The Everyday Workflow",
+      "href": "text/ch023.xhtml#id_82-the-everyday-workflow"
+    },
+    {
+      "title": "Analysis",
+      "href": "text/ch024.xhtml#analysis-5"
+    },
+    {
+      "title": "Building the right mental model (used in §8.1, §8.3)",
+      "href": "text/ch025.xhtml#building-the-right-mental-model-used-in-81-83"
+    },
+    {
+      "title": "9.2 Conducting Software Inspections",
+      "href": "text/ch026.xhtml#id_92-conducting-software-inspections"
+    },
+    {
+      "title": "Analysis",
+      "href": "text/ch027.xhtml#analysis-6"
+    },
+    {
+      "title": "Inspection (used in §9.2)",
+      "href": "text/ch028.xhtml#inspection-used-in-92"
+    },
+    {
+      "title": "10.2 Levels of Testing",
+      "href": "text/ch029.xhtml#id_102-levels-of-testing"
+    },
+    {
+      "title": "Analysis",
+      "href": "text/ch030.xhtml#analysis-7"
+    },
+    {
+      "title": "Coverage criteria, white-box, and MC/DC",
+      "href": "text/ch031.xhtml#coverage-criteria-white-box-and-mcdc"
+    },
+    {
+      "title": "11.2 The OWASP Top 10",
+      "href": "text/ch032.xhtml#id_112-the-owasp-top-10"
+    },
+    {
+      "title": "Analysis",
+      "href": "text/ch033.xhtml#analysis-8"
+    },
+    {
+      "title": "AI in security",
+      "href": "text/ch034.xhtml#ai-in-security"
+    },
+    {
+      "title": "12.2 Software Quality",
+      "href": "text/ch035.xhtml#id_122-software-quality"
+    },
+    {
+      "title": "Analysis",
+      "href": "text/ch036.xhtml#analysis-9"
+    },
+    {
+      "title": "Software metrics and quality (§§12.1–12.5)",
+      "href": "text/ch037.xhtml#software-metrics-and-quality-121125"
+    },
+    {
+      "title": "13.2 AI Across the Lifecycle",
+      "href": "text/ch038.xhtml#id_132-ai-across-the-lifecycle"
+    },
+    {
+      "title": "Analysis",
+      "href": "text/ch039.xhtml#analysis-10"
+    },
+    {
+      "title": "Productivity evidence (used in §13.1.4, §13.3)",
+      "href": "text/ch040.xhtml#productivity-evidence-used-in-1314-133"
+    },
+    {
+      "title": "14.2 Continuous Integration Pipelines",
+      "href": "text/ch041.xhtml#id_142-continuous-integration-pipelines"
+    },
+    {
+      "title": "Analysis",
+      "href": "text/ch042.xhtml#analysis-11"
+    },
+    {
+      "title": "The cloud and distributed systems",
+      "href": "text/ch043.xhtml#the-cloud-and-distributed-systems"
+    },
+    {
+      "title": "15.2 Characterization Tests",
+      "href": "text/ch044.xhtml#id_152-characterization-tests"
+    },
+    {
+      "title": "Analysis",
+      "href": "text/ch045.xhtml#analysis-12"
+    },
+    {
+      "title": "License note",
+      "href": "text/ch046.xhtml#license-note-13"
+    },
+    {
+      "title": "A.2 Project Proposal",
+      "href": "text/ch047.xhtml#a2-project-proposal"
+    },
+    {
+      "title": "The cadence",
+      "href": "text/ch048.xhtml#the-cadence"
+    },
+    {
+      "title": "Weeks 3–4 — Proposal",
+      "href": "text/ch049.xhtml#weeks-34--proposal"
+    },
+    {
+      "title": "Requirements for the proposal (A.2)",
+      "href": "text/ch050.xhtml#requirements-for-the-proposal-a2"
+    },
+    {
+      "title": "2. Appetite",
+      "href": "text/ch051.xhtml#id_2-appetite"
+    },
+    {
+      "title": "2. Users and stakeholders",
+      "href": "text/ch052.xhtml#id_2-users-and-stakeholders"
+    },
+    {
+      "title": "2. What shipped (demo notes)",
+      "href": "text/ch053.xhtml#id_2-what-shipped-demo-notes"
+    },
+    {
+      "title": "2. What works right now",
+      "href": "text/ch054.xhtml#id_2-what-works-right-now"
+    },
+    {
+      "title": "2. Improvement committed last review — did it stick?",
+      "href": "text/ch055.xhtml#id_2-improvement-committed-last-review--did-it-stick"
+    },
+    {
+      "title": "2. Users and requirements",
+      "href": "text/ch056.xhtml#id_2-users-and-requirements"
+    },
+    {
+      "title": "2. What I learned",
+      "href": "text/ch057.xhtml#id_2-what-i-learned"
+    },
+    {
+      "title": "Chapter 1 — Introduction",
+      "href": "text/ch058.xhtml#chapter-1--introduction-1"
+    },
+    {
+      "title": "Variant B: 16-week semester on two-week sprints",
+      "href": "text/ch059.xhtml#variant-b-16-week-semester-on-two-week-sprints"
+    },
+    {
+      "title": "Repository layout",
+      "href": "text/ch060.xhtml#repository-layout"
+    },
+    {
+      "title": "How the book is organized",
+      "href": "text/ch001.xhtml#how-the-book-is-organized"
+    },
+    {
+      "title": "Chapter 1 — Introduction",
+      "href": "text/ch002.xhtml#chapter-1--introduction",
+      "children": [
+        {
+          "title": "1.1 What Is Software Engineering?",
+          "href": "text/ch002.xhtml#id_11-what-is-software-engineering"
+        },
+        {
+          "title": "1.2 The Requirements Challenge",
+          "href": "text/ch002.xhtml#id_12-the-requirements-challenge"
+        },
+        {
+          "title": "1.3 Software Is Intrinsically Complex",
+          "href": "text/ch002.xhtml#id_13-software-is-intrinsically-complex"
+        },
+        {
+          "title": "1.4 Defects Are Inevitable",
+          "href": "text/ch002.xhtml#id_14-defects-are-inevitable"
+        },
+        {
+          "title": "1.5 Balancing Constraints: The Iron Triangle",
+          "href": "text/ch002.xhtml#id_15-balancing-constraints-the-iron-triangle"
+        },
+        {
+          "title": "1.6 Social Responsibility",
+          "href": "text/ch002.xhtml#id_16-social-responsibility"
+        },
+        {
+          "title": "1.7 Conclusion",
+          "href": "text/ch002.xhtml#id_17-conclusion"
+        }
+      ]
+    },
+    {
+      "title": "1.3 Software Is Intrinsically Complex",
+      "href": "text/ch002.xhtml#id_13-software-is-intrinsically-complex"
+    },
+    {
+      "title": "Ethics",
+      "href": "text/ch003.xhtml#ethics"
+    },
+    {
+      "title": "Complexity and defects",
+      "href": "text/ch004.xhtml#complexity-and-defects"
+    },
+    {
+      "title": "2.3 Agile Development: Extreme Programming",
+      "href": "text/ch005.xhtml#id_23-agile-development-extreme-programming"
+    },
+    {
+      "title": "XP and engineering practice (§2.3)",
+      "href": "text/ch006.xhtml#xp-and-engineering-practice-23"
+    },
+    {
+      "title": "Course material",
+      "href": "text/ch007.xhtml#course-material"
+    },
+    {
+      "title": "3.3 Eliciting User Needs",
+      "href": "text/ch008.xhtml#id_33-eliciting-user-needs"
+    },
+    {
+      "title": "Traceability",
+      "href": "text/ch010.xhtml#traceability"
+    },
+    {
+      "title": "4.3 Structured Group Consensus Estimates",
+      "href": "text/ch011.xhtml#id_43-structured-group-consensus-estimates"
+    },
+    {
+      "title": "Prioritization",
+      "href": "text/ch012.xhtml#prioritization"
+    },
+    {
+      "title": "Prioritization",
+      "href": "text/ch013.xhtml#prioritization-1"
+    },
+    {
+      "title": "5.3 Writing Use Cases",
+      "href": "text/ch014.xhtml#id_53-writing-use-cases"
+    },
+    {
+      "title": "Templates and practice",
+      "href": "text/ch016.xhtml#templates-and-practice"
+    },
+    {
+      "title": "6.3 Class Diagrams",
+      "href": "text/ch017.xhtml#id_63-class-diagrams"
+    },
+    {
+      "title": "Class diagrams and UML notation",
+      "href": "text/ch019.xhtml#class-diagrams-and-uml-notation"
+    },
+    {
+      "title": "7.3 User Interfaces: Model-View-Controller",
+      "href": "text/ch020.xhtml#id_73-user-interfaces-model-view-controller"
+    },
+    {
+      "title": "Choosing a pattern",
+      "href": "text/ch021.xhtml#choosing-a-pattern"
+    },
+    {
+      "title": "Client-server, broker, and distributed structure (§7.5)",
+      "href": "text/ch022.xhtml#client-server-broker-and-distributed-structure-75"
+    },
+    {
+      "title": "8.3 Branching and Merging",
+      "href": "text/ch023.xhtml#id_83-branching-and-merging"
+    },
+    {
+      "title": "Hands-on practice and everyday commands (used in §8.2, §8.4)",
+      "href": "text/ch025.xhtml#hands-on-practice-and-everyday-commands-used-in-82-84"
+    },
+    {
+      "title": "9.3 Code Reviews: Check Intent and Trust",
+      "href": "text/ch026.xhtml#id_93-code-reviews-check-intent-and-trust"
+    },
+    {
+      "title": "Automated static analysis (used in §9.4)",
+      "href": "text/ch028.xhtml#automated-static-analysis-used-in-94"
+    },
+    {
+      "title": "10.3 Code Coverage I: White-Box Testing",
+      "href": "text/ch029.xhtml#id_103-code-coverage-i-white-box-testing"
+    },
+    {
+      "title": "Do the work",
+      "href": "text/ch030.xhtml#do-the-work"
+    },
+    {
+      "title": "Black-box and combinatorial testing",
+      "href": "text/ch031.xhtml#black-box-and-combinatorial-testing"
+    },
+    {
+      "title": "11.3 Finding Vulnerabilities, from Manual to Autonomous",
+      "href": "text/ch032.xhtml#id_113-finding-vulnerabilities-from-manual-to-autonomous"
+    },
+    {
+      "title": "The software supply chain",
+      "href": "text/ch034.xhtml#the-software-supply-chain"
+    },
+    {
+      "title": "12.3 Graphical Displays of Data Sets",
+      "href": "text/ch035.xhtml#id_123-graphical-displays-of-data-sets"
+    },
+    {
+      "title": "Calculation",
+      "href": "text/ch036.xhtml#calculation"
+    },
+    {
+      "title": "Reference and data",
+      "href": "text/ch037.xhtml#reference-and-data"
+    },
+    {
+      "title": "13.3 The Evidence: Productivity, Quality, Security",
+      "href": "text/ch038.xhtml#id_133-the-evidence-productivity-quality-security"
+    },
+    {
+      "title": "The o16g manifesto",
+      "href": "text/ch039.xhtml#the-o16g-manifesto"
+    },
+    {
+      "title": "Code quality \u0026 security (used in §13.3)",
+      "href": "text/ch040.xhtml#code-quality--security-used-in-133"
+    },
+    {
+      "title": "14.3 Continuous Deployment",
+      "href": "text/ch041.xhtml#id_143-continuous-deployment"
+    },
+    {
+      "title": "CI/CD and deployment practice",
+      "href": "text/ch043.xhtml#cicd-and-deployment-practice"
+    },
+    {
+      "title": "15.3 Refactoring Under Green Tests",
+      "href": "text/ch044.xhtml#id_153-refactoring-under-green-tests"
+    },
+    {
+      "title": "A.3 Skeletal System: Status Report 1",
+      "href": "text/ch047.xhtml#a3-skeletal-system-status-report-1"
+    },
+    {
+      "title": "Sprint 0: from pitch to deployed skeleton",
+      "href": "text/ch048.xhtml#sprint-0-from-pitch-to-deployed-skeleton"
+    },
+    {
+      "title": "Weeks 5–7 — Skeletal system (Status Report 1)",
+      "href": "text/ch049.xhtml#weeks-57--skeletal-system-status-report-1"
+    },
+    {
+      "title": "Team effectiveness (A.1.2)",
+      "href": "text/ch050.xhtml#team-effectiveness-a12"
+    },
+    {
+      "title": "3. Rough solution",
+      "href": "text/ch051.xhtml#id_3-rough-solution"
+    },
+    {
+      "title": "3. Proposed solution and value",
+      "href": "text/ch052.xhtml#id_3-proposed-solution-and-value"
+    },
+    {
+      "title": "3. Stories: planned vs. done",
+      "href": "text/ch053.xhtml#id_3-stories-planned-vs-done"
+    },
+    {
+      "title": "3. Architecture (current)",
+      "href": "text/ch054.xhtml#id_3-architecture-current"
+    },
+    {
+      "title": "3. New committed improvement",
+      "href": "text/ch055.xhtml#id_3-new-committed-improvement"
+    },
+    {
+      "title": "3. Architecture",
+      "href": "text/ch056.xhtml#id_3-architecture"
+    },
+    {
+      "title": "3. Working on a team",
+      "href": "text/ch057.xhtml#id_3-working-on-a-team"
+    },
+    {
+      "title": "Chapter 2 — Software Development Processes",
+      "href": "text/ch058.xhtml#chapter-2--software-development-processes-1"
+    },
+    {
+      "title": "Assessment (suggested weights)",
+      "href": "text/ch059.xhtml#assessment-suggested-weights"
+    },
+    {
+      "title": "House style",
+      "href": "text/ch060.xhtml#house-style"
+    },
+    {
+      "title": "Suggested paths through the book",
+      "href": "text/ch001.xhtml#suggested-paths-through-the-book"
+    },
+    {
+      "title": "1.4 Defects Are Inevitable",
+      "href": "text/ch002.xhtml#id_14-defects-are-inevitable"
+    },
+    {
+      "title": "Chapter 1 — Exercises",
+      "href": "text/ch003.xhtml#chapter-1--exercises",
+      "children": [
+        {
+          "title": "Concepts",
+          "href": "text/ch003.xhtml#concepts"
+        },
+        {
+          "title": "Analysis",
+          "href": "text/ch003.xhtml#analysis"
+        },
+        {
+          "title": "Ethics",
+          "href": "text/ch003.xhtml#ethics"
+        }
+      ]
+    },
+    {
+      "title": "Professional responsibility (used in §1.6)",
+      "href": "text/ch004.xhtml#professional-responsibility-used-in-16"
+    },
+    {
+      "title": "2.4 Limitations of Waterfall Processes",
+      "href": "text/ch005.xhtml#id_24-limitations-of-waterfall-processes"
+    },
+    {
+      "title": "Plan-driven models and their risks (§§2.4–2.5)",
+      "href": "text/ch006.xhtml#plan-driven-models-and-their-risks-2425"
+    },
+    {
+      "title": "License note",
+      "href": "text/ch007.xhtml#license-note-1"
+    },
+    {
+      "title": "3.4 Writing Requirements: Stories and Features",
+      "href": "text/ch008.xhtml#id_34-writing-requirements-stories-and-features"
+    },
+    {
+      "title": "Writing and specifying requirements",
+      "href": "text/ch010.xhtml#writing-and-specifying-requirements"
+    },
+    {
+      "title": "4.4 Balancing Priorities",
+      "href": "text/ch011.xhtml#id_44-balancing-priorities"
+    },
+    {
+      "title": "Effort models",
+      "href": "text/ch012.xhtml#effort-models"
+    },
+    {
+      "title": "Customer satisfaction: the Kano model",
+      "href": "text/ch013.xhtml#customer-satisfaction-the-kano-model"
+    },
+    {
+      "title": "5.4 Use-Case Diagrams",
+      "href": "text/ch014.xhtml#id_54-use-case-diagrams"
+    },
+    {
+      "title": "License note",
+      "href": "text/ch016.xhtml#license-note-4"
+    },
+    {
+      "title": "6.4 Architectural Views",
+      "href": "text/ch017.xhtml#id_64-architectural-views"
+    },
+    {
+      "title": "Architectural views (used in §6.4)",
+      "href": "text/ch019.xhtml#architectural-views-used-in-64"
+    },
+    {
+      "title": "7.4 Dataflow Architectures",
+      "href": "text/ch020.xhtml#id_74-dataflow-architectures"
+    },
+    {
+      "title": "Product lines (§7.6)",
+      "href": "text/ch022.xhtml#product-lines-76"
+    },
+    {
+      "title": "8.4 Working with Others",
+      "href": "text/ch023.xhtml#id_84-working-with-others"
+    },
+    {
+      "title": "Team workflows and conflicts (used in §8.4, §8.5)",
+      "href": "text/ch025.xhtml#team-workflows-and-conflicts-used-in-84-85"
+    },
+    {
+      "title": "9.4 Automated Static Analysis",
+      "href": "text/ch026.xhtml#id_94-automated-static-analysis"
+    },
+    {
+      "title": "Learning from failure (used in §9.1)",
+      "href": "text/ch028.xhtml#learning-from-failure-used-in-91"
+    },
+    {
+      "title": "10.4 Input Coverage I: Black-Box Testing",
+      "href": "text/ch029.xhtml#id_104-input-coverage-i-black-box-testing"
+    },
+    {
+      "title": "Tools and practice",
+      "href": "text/ch031.xhtml#tools-and-practice"
+    },
+    {
+      "title": "11.4 The Software Supply Chain: A World of Weak Links",
+      "href": "text/ch032.xhtml#id_114-the-software-supply-chain-a-world-of-weak-links"
+    },
+    {
+      "title": "Standards, frameworks, and courses",
+      "href": "text/ch034.xhtml#standards-frameworks-and-courses"
+    },
+    {
+      "title": "12.4 Product Quality: Measuring Defects",
+      "href": "text/ch035.xhtml#id_124-product-quality-measuring-defects"
+    },
+    {
+      "title": "License note",
+      "href": "text/ch037.xhtml#license-note-10"
+    },
+    {
+      "title": "13.4 Outcome Engineering: The o16g Manifesto",
+      "href": "text/ch038.xhtml#id_134-outcome-engineering-the-o16g-manifesto"
+    },
+    {
+      "title": "Agentic practice",
+      "href": "text/ch039.xhtml#agentic-practice"
+    },
+    {
+      "title": "AI in requirements, design, testing (used in §13.2)",
+      "href": "text/ch040.xhtml#ai-in-requirements-design-testing-used-in-132"
+    },
+    {
+      "title": "14.4 Packaging and Running a Service: Docker and Compose",
+      "href": "text/ch041.xhtml#id_144-packaging-and-running-a-service-docker-and-compose"
+    },
+    {
+      "title": "Deployment mechanics: containers, DNS, and TLS",
+      "href": "text/ch043.xhtml#deployment-mechanics-containers-dns-and-tls"
+    },
+    {
+      "title": "15.4 Repository Stewardship",
+      "href": "text/ch044.xhtml#id_154-repository-stewardship"
+    },
+    {
+      "title": "A.4 Viable System: Status Report 2",
+      "href": "text/ch047.xhtml#a4-viable-system-status-report-2"
+    },
+    {
+      "title": "Sprints 1–4: build cycles with a hardening arc",
+      "href": "text/ch048.xhtml#sprints-14-build-cycles-with-a-hardening-arc"
+    },
+    {
+      "title": "Weeks 8–11 — Viable system (Status Report 2)",
+      "href": "text/ch049.xhtml#weeks-811--viable-system-status-report-2"
+    },
+    {
+      "title": "Process (A.1.1, referenced from Ch. 2)",
+      "href": "text/ch050.xhtml#process-a11-referenced-from-ch-2"
+    },
+    {
+      "title": "4. Rabbit holes",
+      "href": "text/ch051.xhtml#id_4-rabbit-holes"
+    },
+    {
+      "title": "4. Key user stories / features (prioritized)",
+      "href": "text/ch052.xhtml#id_4-key-user-stories--features-prioritized"
+    },
+    {
+      "title": "4. Quality",
+      "href": "text/ch053.xhtml#id_4-quality"
+    },
+    {
+      "title": "4. Process and progress",
+      "href": "text/ch054.xhtml#id_4-process-and-progress"
+    },
+    {
+      "title": "4. Peer contribution",
+      "href": "text/ch055.xhtml#id_4-peer-contribution"
+    },
+    {
+      "title": "4. Process used",
+      "href": "text/ch056.xhtml#id_4-process-used"
+    },
+    {
+      "title": "4. What I’d do differently",
+      "href": "text/ch057.xhtml#id_4-what-id-do-differently"
+    },
+    {
+      "title": "Chapter 3 — User Requirements",
+      "href": "text/ch058.xhtml#chapter-3--user-requirements-1"
+    },
+    {
+      "title": "Learning outcomes",
+      "href": "text/ch059.xhtml#learning-outcomes"
+    },
+    {
+      "title": "Making a change",
+      "href": "text/ch060.xhtml#making-a-change"
+    },
+    {
+      "title": "Code examples in six languages",
+      "href": "text/ch001.xhtml#code-examples-in-six-languages"
+    },
+    {
+      "title": "1.5 Balancing Constraints: The Iron Triangle",
+      "href": "text/ch002.xhtml#id_15-balancing-constraints-the-iron-triangle"
+    },
+    {
+      "title": "Chapter 1 — Open Resources",
+      "href": "text/ch004.xhtml#chapter-1--open-resources",
+      "children": [
+        {
+          "title": "What software engineering is",
+          "href": "text/ch004.xhtml#what-software-engineering-is"
+        },
+        {
+          "title": "Origins of the discipline (used in §1.1.3)",
+          "href": "text/ch004.xhtml#origins-of-the-discipline-used-in-113"
+        },
+        {
+          "title": "Complexity and defects",
+          "href": "text/ch004.xhtml#complexity-and-defects"
+        },
+        {
+          "title": "Professional responsibility (used in §1.6)",
+          "href": "text/ch004.xhtml#professional-responsibility-used-in-16"
+        },
+        {
+          "title": "License note",
+          "href": "text/ch004.xhtml#license-note"
+        }
+      ]
+    },
+    {
+      "title": "License note",
+      "href": "text/ch004.xhtml#license-note"
+    },
+    {
+      "title": "2.5 Levels of Design and Testing: V Processes",
+      "href": "text/ch005.xhtml#id_25-levels-of-design-and-testing-v-processes"
+    },
+    {
+      "title": "Risk and the spiral (§§2.6–2.7)",
+      "href": "text/ch006.xhtml#risk-and-the-spiral-2627"
+    },
+    {
+      "title": "3.5 Writing User-Experience Scenarios",
+      "href": "text/ch008.xhtml#id_35-writing-user-experience-scenarios"
+    },
+    {
+      "title": "Eliciting and prioritizing needs",
+      "href": "text/ch010.xhtml#eliciting-and-prioritizing-needs"
+    },
+    {
+      "title": "4.5 Customer Satisfiers and Dissatisfiers",
+      "href": "text/ch011.xhtml#id_45-customer-satisfiers-and-dissatisfiers"
+    },
+    {
+      "title": "Plan-driven / algorithmic estimation: COCOMO",
+      "href": "text/ch013.xhtml#plan-driven--algorithmic-estimation-cocomo"
+    },
+    {
+      "title": "5.5 Relationships between Use Cases",
+      "href": "text/ch014.xhtml#id_55-relationships-between-use-cases"
+    },
+    {
+      "title": "6.5 Describing System Architecture",
+      "href": "text/ch017.xhtml#id_65-describing-system-architecture"
+    },
+    {
+      "title": "Quality-attribute scenarios",
+      "href": "text/ch019.xhtml#quality-attribute-scenarios"
+    },
+    {
+      "title": "7.5 Connecting Clients with Servers",
+      "href": "text/ch020.xhtml#id_75-connecting-clients-with-servers"
+    },
+    {
+      "title": "RESTful APIs (§7.5.4)",
+      "href": "text/ch022.xhtml#restful-apis-754"
+    },
+    {
+      "title": "8.5 Merge Conflicts",
+      "href": "text/ch023.xhtml#id_85-merge-conflicts"
+    },
+    {
+      "title": "Commit and history discipline (used in §8.6)",
+      "href": "text/ch025.xhtml#commit-and-history-discipline-used-in-86"
+    },
+    {
+      "title": "9.5 Conclusion",
+      "href": "text/ch026.xhtml#id_95-conclusion"
+    },
+    {
+      "title": "License note",
+      "href": "text/ch028.xhtml#license-note-7"
+    },
+    {
+      "title": "10.5 Code Coverage II: MC/DC",
+      "href": "text/ch029.xhtml#id_105-code-coverage-ii-mcdc"
+    },
+    {
+      "title": "License note",
+      "href": "text/ch031.xhtml#license-note-8"
+    },
+    {
+      "title": "11.5 Building Security In",
+      "href": "text/ch032.xhtml#id_115-building-security-in"
+    },
+    {
+      "title": "License note",
+      "href": "text/ch034.xhtml#license-note-9"
+    },
+    {
+      "title": "12.5 Ops Quality Improvement: A Case Study",
+      "href": "text/ch035.xhtml#id_125-ops-quality-improvement-a-case-study"
+    },
+    {
+      "title": "13.5 Spec-Driven Development",
+      "href": "text/ch038.xhtml#id_135-spec-driven-development"
+    },
+    {
+      "title": "Agentic development in practice (used in §§13.5–13.7)",
+      "href": "text/ch040.xhtml#agentic-development-in-practice-used-in-135137"
+    },
+    {
+      "title": "14.5 Reaching Users: DNS, TLS, and the Edge",
+      "href": "text/ch041.xhtml#id_145-reaching-users-dns-tls-and-the-edge"
+    },
+    {
+      "title": "DORA and delivery research",
+      "href": "text/ch043.xhtml#dora-and-delivery-research"
+    },
+    {
+      "title": "15.5 Technical Debt",
+      "href": "text/ch044.xhtml#id_155-technical-debt"
+    },
+    {
+      "title": "A.5 Comprehensive Final Report",
+      "href": "text/ch047.xhtml#a5-comprehensive-final-report"
+    },
+    {
+      "title": "Every sprint: the common cycle",
+      "href": "text/ch048.xhtml#every-sprint-the-common-cycle"
+    },
+    {
+      "title": "Weeks 12–15 — Final report and demo",
+      "href": "text/ch049.xhtml#weeks-1215--final-report-and-demo"
+    },
+    {
+      "title": "Curriculum context (why the course is shaped this way)",
+      "href": "text/ch050.xhtml#curriculum-context-why-the-course-is-shaped-this-way"
+    },
+    {
+      "title": "5. No-gos",
+      "href": "text/ch051.xhtml#id_5-no-gos"
+    },
+    {
+      "title": "5. Scope boundaries",
+      "href": "text/ch052.xhtml#id_5-scope-boundaries"
+    },
+    {
+      "title": "4a. Process evidence",
+      "href": "text/ch053.xhtml#id_4a-process-evidence"
+    },
+    {
+      "title": "5. Testing and quality (Report 2 emphasizes this)",
+      "href": "text/ch054.xhtml#id_5-testing-and-quality-report-2-emphasizes-this"
+    },
+    {
+      "title": "5. Customer feedback captured",
+      "href": "text/ch055.xhtml#id_5-customer-feedback-captured"
+    },
+    {
+      "title": "5. Testing and quality metrics",
+      "href": "text/ch056.xhtml#id_5-testing-and-quality-metrics"
+    },
+    {
+      "title": "5. Self-assessment",
+      "href": "text/ch057.xhtml#id_5-self-assessment"
+    },
+    {
+      "title": "Chapter 4 — Requirements Analysis",
+      "href": "text/ch058.xhtml#chapter-4--requirements-analysis-1"
+    },
+    {
+      "title": "Adapting the plan",
+      "href": "text/ch059.xhtml#adapting-the-plan"
+    },
+    {
+      "title": "Reporting issues",
+      "href": "text/ch060.xhtml#reporting-issues"
+    },
+    {
+      "title": "How this book was made (AI assistance)",
+      "href": "text/ch001.xhtml#how-this-book-was-made-ai-assistance"
+    },
+    {
+      "title": "1.6 Social Responsibility",
+      "href": "text/ch002.xhtml#id_16-social-responsibility"
+    },
+    {
+      "title": "Chapter 2 — Software Development Processes",
+      "href": "text/ch005.xhtml#chapter-2--software-development-processes",
+      "children": [
+        {
+          "title": "2.1 Processes and Values Guide Development",
+          "href": "text/ch005.xhtml#id_21-processes-and-values-guide-development"
+        },
+        {
+          "title": "2.2 Structuring Teamwork: The Scrum Framework",
+          "href": "text/ch005.xhtml#id_22-structuring-teamwork-the-scrum-framework"
+        },
+        {
+          "title": "2.3 Agile Development: Extreme Programming",
+          "href": "text/ch005.xhtml#id_23-agile-development-extreme-programming"
+        },
+        {
+          "title": "2.4 Limitations of Waterfall Processes",
+          "href": "text/ch005.xhtml#id_24-limitations-of-waterfall-processes"
+        },
+        {
+          "title": "2.5 Levels of Design and Testing: V Processes",
+          "href": "text/ch005.xhtml#id_25-levels-of-design-and-testing-v-processes"
+        },
+        {
+          "title": "2.6 Additional Project Risks",
+          "href": "text/ch005.xhtml#id_26-additional-project-risks"
+        },
+        {
+          "title": "2.7 Risk Reduction: The Spiral Framework",
+          "href": "text/ch005.xhtml#id_27-risk-reduction-the-spiral-framework"
+        },
+        {
+          "title": "2.8 Shape Up: Fixed Time, Variable Scope",
+          "href": "text/ch005.xhtml#id_28-shape-up-fixed-time-variable-scope"
+        },
+        {
+          "title": "2.9 Conclusion",
+          "href": "text/ch005.xhtml#id_29-conclusion"
+        }
+      ]
+    },
+    {
+      "title": "2.6 Additional Project Risks",
+      "href": "text/ch005.xhtml#id_26-additional-project-risks"
+    },
+    {
+      "title": "Shape Up (§2.8)",
+      "href": "text/ch006.xhtml#shape-up-28"
+    },
+    {
+      "title": "3.6 Clarifying User Goals",
+      "href": "text/ch008.xhtml#id_36-clarifying-user-goals"
+    },
+    {
+      "title": "Framing the problem",
+      "href": "text/ch010.xhtml#framing-the-problem"
+    },
+    {
+      "title": "4.6 Plan-Driven Estimation Models",
+      "href": "text/ch011.xhtml#id_46-plan-driven-estimation-models"
+    },
+    {
+      "title": "Estimation, judgment, and its limits (background)",
+      "href": "text/ch013.xhtml#estimation-judgment-and-its-limits-background"
+    },
+    {
+      "title": "5.6 Conclusion",
+      "href": "text/ch014.xhtml#id_56-conclusion"
+    },
+    {
+      "title": "6.6 Conclusion",
+      "href": "text/ch017.xhtml#id_66-conclusion"
+    },
+    {
+      "title": "License note",
+      "href": "text/ch019.xhtml#license-note-5"
+    },
+    {
+      "title": "7.6 Families and Product Lines",
+      "href": "text/ch020.xhtml#id_76-families-and-product-lines"
+    },
+    {
+      "title": "Foundational background",
+      "href": "text/ch022.xhtml#foundational-background"
+    },
+    {
+      "title": "8.6 Habits That Make Git Work for a Team",
+      "href": "text/ch023.xhtml#id_86-habits-that-make-git-work-for-a-team"
+    },
+    {
+      "title": "Markdown and documentation (used in §8.7)",
+      "href": "text/ch025.xhtml#markdown-and-documentation-used-in-87"
+    },
+    {
+      "title": "10.6 Input Coverage II: Combinatorial Testing",
+      "href": "text/ch029.xhtml#id_106-input-coverage-ii-combinatorial-testing"
+    },
+    {
+      "title": "11.6 Conclusion",
+      "href": "text/ch032.xhtml#id_116-conclusion"
+    },
+    {
+      "title": "12.6 Data Dispersion: Boxplots and Histograms",
+      "href": "text/ch035.xhtml#id_126-data-dispersion-boxplots-and-histograms"
+    },
+    {
+      "title": "13.6 Context as Infrastructure: CLAUDE.md, AGENTS.md, and Skills",
+      "href": "text/ch038.xhtml#id_136-context-as-infrastructure-claudemd-agentsmd-and-skills"
+    },
+    {
+      "title": "Foundations \u0026 agentic engineering",
+      "href": "text/ch040.xhtml#foundations--agentic-engineering"
+    },
+    {
+      "title": "14.6 Continuous Security Pipelines",
+      "href": "text/ch041.xhtml#id_146-continuous-security-pipelines"
+    },
+    {
+      "title": "Continuous security and the supply chain",
+      "href": "text/ch043.xhtml#continuous-security-and-the-supply-chain"
+    },
+    {
+      "title": "15.6 Strangler Fig versus Big-Bang Rewrite",
+      "href": "text/ch044.xhtml#id_156-strangler-fig-versus-big-bang-rewrite"
+    },
+    {
+      "title": "A.6 Grading Your Own Repository",
+      "href": "text/ch047.xhtml#a6-grading-your-own-repository"
+    },
+    {
+      "title": "Demo Day rules",
+      "href": "text/ch048.xhtml#demo-day-rules"
+    },
+    {
+      "title": "Cross-team customer models (the dual-hat swap)",
+      "href": "text/ch050.xhtml#cross-team-customer-models-the-dual-hat-swap"
+    },
+    {
+      "title": "6. Customer contact",
+      "href": "text/ch051.xhtml#id_6-customer-contact"
+    },
+    {
+      "title": "6. Intended architecture and technology",
+      "href": "text/ch052.xhtml#id_6-intended-architecture-and-technology"
+    },
+    {
+      "title": "5. Scopes and hill chart",
+      "href": "text/ch053.xhtml#id_5-scopes-and-hill-chart"
+    },
+    {
+      "title": "6. Metrics so far (Report 2)",
+      "href": "text/ch054.xhtml#id_6-metrics-so-far-report-2"
+    },
+    {
+      "title": "6. Escalations",
+      "href": "text/ch055.xhtml#id_6-escalations"
+    },
+    {
+      "title": "6. Results",
+      "href": "text/ch056.xhtml#id_6-results"
+    },
+    {
+      "title": "Chapter 5 — Use Cases",
+      "href": "text/ch058.xhtml#chapter-5--use-cases-1"
+    },
+    {
+      "title": "About the author",
+      "href": "text/ch001.xhtml#about-the-author"
+    },
+    {
+      "title": "1.7 Conclusion",
+      "href": "text/ch002.xhtml#id_17-conclusion"
+    },
+    {
+      "title": "2.7 Risk Reduction: The Spiral Framework",
+      "href": "text/ch005.xhtml#id_27-risk-reduction-the-spiral-framework"
+    },
+    {
+      "title": "Chapter 2 — Exercises",
+      "href": "text/ch006.xhtml#chapter-2--exercises",
+      "children": [
+        {
+          "title": "Processes and values (§2.1)",
+          "href": "text/ch006.xhtml#processes-and-values-21"
+        },
+        {
+          "title": "Scrum (§2.2)",
+          "href": "text/ch006.xhtml#scrum-22"
+        },
+        {
+          "title": "XP and engineering practice (§2.3)",
+          "href": "text/ch006.xhtml#xp-and-engineering-practice-23"
+        },
+        {
+          "title": "Plan-driven models and their risks (§§2.4–2.5)",
+          "href": "text/ch006.xhtml#plan-driven-models-and-their-risks-2425"
+        },
+        {
+          "title": "Risk and the spiral (§§2.6–2.7)",
+          "href": "text/ch006.xhtml#risk-and-the-spiral-2627"
+        },
+        {
+          "title": "Shape Up (§2.8)",
+          "href": "text/ch006.xhtml#shape-up-28"
+        }
+      ]
+    },
+    {
+      "title": "3.7 Identifying Security Attacks",
+      "href": "text/ch008.xhtml#id_37-identifying-security-attacks"
+    },
+    {
+      "title": "Goals and goal modeling",
+      "href": "text/ch010.xhtml#goals-and-goal-modeling"
+    },
+    {
+      "title": "4.7 Conclusion",
+      "href": "text/ch011.xhtml#id_47-conclusion"
+    },
+    {
+      "title": "Appetite: fixed time, variable scope",
+      "href": "text/ch013.xhtml#appetite-fixed-time-variable-scope"
+    },
+    {
+      "title": "7.7 Conclusion",
+      "href": "text/ch020.xhtml#id_77-conclusion"
+    },
+    {
+      "title": "License note",
+      "href": "text/ch022.xhtml#license-note-6"
+    },
+    {
+      "title": "8.7 Markdown, READMEs, and Project Documentation",
+      "href": "text/ch023.xhtml#id_87-markdown-readmes-and-project-documentation"
+    },
+    {
+      "title": "10.7 Conclusion",
+      "href": "text/ch029.xhtml#id_107-conclusion"
+    },
+    {
+      "title": "12.7 Data Dispersion: Statistics",
+      "href": "text/ch035.xhtml#id_127-data-dispersion-statistics"
+    },
+    {
+      "title": "13.7 Loop Engineering",
+      "href": "text/ch038.xhtml#id_137-loop-engineering"
+    },
+    {
+      "title": "License note",
+      "href": "text/ch040.xhtml#license-note-11"
+    },
+    {
+      "title": "14.7 DORA Delivery Metrics",
+      "href": "text/ch041.xhtml#id_147-dora-delivery-metrics"
+    },
+    {
+      "title": "License note",
+      "href": "text/ch043.xhtml#license-note-12"
+    },
+    {
+      "title": "15.7 Conclusion",
+      "href": "text/ch044.xhtml#id_157-conclusion"
+    },
+    {
+      "title": "A.7 Conclusion",
+      "href": "text/ch047.xhtml#a7-conclusion"
+    },
+    {
+      "title": "Appetite per sprint",
+      "href": "text/ch048.xhtml#appetite-per-sprint"
+    },
+    {
+      "title": "Metrics for status reports and the final report (referenced from Ch. 12)",
+      "href": "text/ch050.xhtml#metrics-for-status-reports-and-the-final-report-referenced-from-ch-12"
+    },
+    {
+      "title": "7. Process and team plan",
+      "href": "text/ch052.xhtml#id_7-process-and-team-plan"
+    },
+    {
+      "title": "6. Scope cuts and nice-to-haves dropped",
+      "href": "text/ch053.xhtml#id_6-scope-cuts-and-nice-to-haves-dropped"
+    },
+    {
+      "title": "7. Risks, blockers, and changes",
+      "href": "text/ch054.xhtml#id_7-risks-blockers-and-changes"
+    },
+    {
+      "title": "7. Retrospective",
+      "href": "text/ch056.xhtml#id_7-retrospective"
+    },
+    {
+      "title": "Chapter 6 — Design and Architecture",
+      "href": "text/ch058.xhtml#chapter-6--design-and-architecture-1"
+    },
+    {
+      "title": "If this book helped you",
+      "href": "text/ch001.xhtml#if-this-book-helped-you"
+    },
+    {
+      "title": "2.8 Shape Up: Fixed Time, Variable Scope",
+      "href": "text/ch005.xhtml#id_28-shape-up-fixed-time-variable-scope"
+    },
+    {
+      "title": "Chapter 2 — Open Resources",
+      "href": "text/ch007.xhtml#chapter-2--open-resources",
+      "children": [
+        {
+          "title": "Foundational values",
+          "href": "text/ch007.xhtml#foundational-values"
+        },
+        {
+          "title": "Plan-driven and risk-driven models (primary sources)",
+          "href": "text/ch007.xhtml#plan-driven-and-risk-driven-models-primary-sources"
+        },
+        {
+          "title": "Course material",
+          "href": "text/ch007.xhtml#course-material"
+        },
+        {
+          "title": "License note",
+          "href": "text/ch007.xhtml#license-note-1"
+        }
+      ]
+    },
+    {
+      "title": "3.8 Conclusion",
+      "href": "text/ch008.xhtml#id_38-conclusion"
+    },
+    {
+      "title": "Security requirements and attack trees",
+      "href": "text/ch010.xhtml#security-requirements-and-attack-trees"
+    },
+    {
+      "title": "License note",
+      "href": "text/ch013.xhtml#license-note-3"
+    },
+    {
+      "title": "8.8 Conclusion",
+      "href": "text/ch023.xhtml#id_88-conclusion"
+    },
+    {
+      "title": "12.8 Confidence Intervals",
+      "href": "text/ch035.xhtml#id_128-confidence-intervals"
+    },
+    {
+      "title": "13.8 Principles for the AI-Augmented Engineer",
+      "href": "text/ch038.xhtml#id_138-principles-for-the-ai-augmented-engineer"
+    },
+    {
+      "title": "14.8 Conclusion",
+      "href": "text/ch041.xhtml#id_148-conclusion"
+    },
+    {
+      "title": "Team and customer reviews",
+      "href": "text/ch048.xhtml#team-and-customer-reviews"
+    },
+    {
+      "title": "License note",
+      "href": "text/ch050.xhtml#license-note-14"
+    },
+    {
+      "title": "8. Risks and how you’ll probe them",
+      "href": "text/ch052.xhtml#id_8-risks-and-how-youll-probe-them"
+    },
+    {
+      "title": "7. Risks and blockers",
+      "href": "text/ch053.xhtml#id_7-risks-and-blockers"
+    },
+    {
+      "title": "8. Plan for next milestone",
+      "href": "text/ch054.xhtml#id_8-plan-for-next-milestone"
+    },
+    {
+      "title": "8. AI use and provenance",
+      "href": "text/ch056.xhtml#id_8-ai-use-and-provenance"
+    },
+    {
+      "title": "Chapter 7 — Architectural Patterns",
+      "href": "text/ch058.xhtml#chapter-7--architectural-patterns-1"
+    },
+    {
+      "title": "Citing this book",
+      "href": "text/ch001.xhtml#citing-this-book"
+    },
+    {
+      "title": "2.9 Conclusion",
+      "href": "text/ch005.xhtml#id_29-conclusion"
+    },
+    {
+      "title": "Chapter 3 — User Requirements",
+      "href": "text/ch008.xhtml#chapter-3--user-requirements",
+      "children": [
+        {
+          "title": "3.1 What Is a Requirement?",
+          "href": "text/ch008.xhtml#id_31-what-is-a-requirement"
+        },
+        {
+          "title": "3.2 Developing Requirements and Software",
+          "href": "text/ch008.xhtml#id_32-developing-requirements-and-software"
+        },
+        {
+          "title": "3.3 Eliciting User Needs",
+          "href": "text/ch008.xhtml#id_33-eliciting-user-needs"
+        },
+        {
+          "title": "3.4 Writing Requirements: Stories and Features",
+          "href": "text/ch008.xhtml#id_34-writing-requirements-stories-and-features"
+        },
+        {
+          "title": "3.5 Writing User-Experience Scenarios",
+          "href": "text/ch008.xhtml#id_35-writing-user-experience-scenarios"
+        },
+        {
+          "title": "3.6 Clarifying User Goals",
+          "href": "text/ch008.xhtml#id_36-clarifying-user-goals"
+        },
+        {
+          "title": "3.7 Identifying Security Attacks",
+          "href": "text/ch008.xhtml#id_37-identifying-security-attacks"
+        },
+        {
+          "title": "3.8 Conclusion",
+          "href": "text/ch008.xhtml#id_38-conclusion"
+        }
+      ]
+    },
+    {
+      "title": "License note",
+      "href": "text/ch010.xhtml#license-note-2"
+    },
+    {
+      "title": "12.9 Simple Linear Regression",
+      "href": "text/ch035.xhtml#id_129-simple-linear-regression"
+    },
+    {
+      "title": "13.9 Conclusion",
+      "href": "text/ch038.xhtml#id_139-conclusion"
+    },
+    {
+      "title": "End of term",
+      "href": "text/ch048.xhtml#end-of-term"
+    },
+    {
+      "title": "9. Definition of done for the term",
+      "href": "text/ch052.xhtml#id_9-definition-of-done-for-the-term"
+    },
+    {
+      "title": "8. Next sprint plan",
+      "href": "text/ch053.xhtml#id_8-next-sprint-plan"
+    },
+    {
+      "title": "9. Individual contributions this period",
+      "href": "text/ch054.xhtml#id_9-individual-contributions-this-period"
+    },
+    {
+      "title": "9. Individual contributions",
+      "href": "text/ch056.xhtml#id_9-individual-contributions"
+    },
+    {
+      "title": "Chapter 8 — Version Control with Git",
+      "href": "text/ch058.xhtml#chapter-8--version-control-with-git-1"
+    },
+    {
+      "title": "Copyright and license",
+      "href": "text/ch001.xhtml#copyright-and-license"
+    },
+    {
+      "title": "Chapter 3 — Exercises",
+      "href": "text/ch009.xhtml#chapter-3--exercises",
+      "children": [
+        {
+          "title": "Concepts",
+          "href": "text/ch009.xhtml#concepts-1"
+        },
+        {
+          "title": "Analysis",
+          "href": "text/ch009.xhtml#analysis-1"
+        }
+      ]
+    },
+    {
+      "title": "12.10 Conclusion",
+      "href": "text/ch035.xhtml#id_1210-conclusion"
+    },
+    {
+      "title": "9. Contributions",
+      "href": "text/ch053.xhtml#id_9-contributions"
+    },
+    {
+      "title": "10. Appendix (optional)",
+      "href": "text/ch056.xhtml#id_10-appendix-optional"
+    },
+    {
+      "title": "Chapter 9 — Static Checking",
+      "href": "text/ch058.xhtml#chapter-9--static-checking-1"
+    },
+    {
+      "title": "Chapter 3 — Open Resources",
+      "href": "text/ch010.xhtml#chapter-3--open-resources",
+      "children": [
+        {
+          "title": "User stories, features, and BDD",
+          "href": "text/ch010.xhtml#user-stories-features-and-bdd"
+        },
+        {
+          "title": "Gherkin, Given/When/Then, and BDD",
+          "href": "text/ch010.xhtml#gherkin-givenwhenthen-and-bdd"
+        },
+        {
+          "title": "Traceability",
+          "href": "text/ch010.xhtml#traceability"
+        },
+        {
+          "title": "Writing and specifying requirements",
+          "href": "text/ch010.xhtml#writing-and-specifying-requirements"
+        },
+        {
+          "title": "Eliciting and prioritizing needs",
+          "href": "text/ch010.xhtml#eliciting-and-prioritizing-needs"
+        },
+        {
+          "title": "Framing the problem",
+          "href": "text/ch010.xhtml#framing-the-problem"
+        },
+        {
+          "title": "Goals and goal modeling",
+          "href": "text/ch010.xhtml#goals-and-goal-modeling"
+        },
+        {
+          "title": "Security requirements and attack trees",
+          "href": "text/ch010.xhtml#security-requirements-and-attack-trees"
+        },
+        {
+          "title": "License note",
+          "href": "text/ch010.xhtml#license-note-2"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 10 — Testing",
+      "href": "text/ch058.xhtml#chapter-10--testing-1"
+    },
+    {
+      "title": "Chapter 4 — Requirements Analysis",
+      "href": "text/ch011.xhtml#chapter-4--requirements-analysis",
+      "children": [
+        {
+          "title": "4.1 A Checklist Approach",
+          "href": "text/ch011.xhtml#id_41-a-checklist-approach"
+        },
+        {
+          "title": "4.2 Relative Estimation: Iteration Planning",
+          "href": "text/ch011.xhtml#id_42-relative-estimation-iteration-planning"
+        },
+        {
+          "title": "4.3 Structured Group Consensus Estimates",
+          "href": "text/ch011.xhtml#id_43-structured-group-consensus-estimates"
+        },
+        {
+          "title": "4.4 Balancing Priorities",
+          "href": "text/ch011.xhtml#id_44-balancing-priorities"
+        },
+        {
+          "title": "4.5 Customer Satisfiers and Dissatisfiers",
+          "href": "text/ch011.xhtml#id_45-customer-satisfiers-and-dissatisfiers"
+        },
+        {
+          "title": "4.6 Plan-Driven Estimation Models",
+          "href": "text/ch011.xhtml#id_46-plan-driven-estimation-models"
+        },
+        {
+          "title": "4.7 Conclusion",
+          "href": "text/ch011.xhtml#id_47-conclusion"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 11 — Software Security",
+      "href": "text/ch058.xhtml#chapter-11--software-security-1"
+    },
+    {
+      "title": "Chapter 4 — Exercises",
+      "href": "text/ch012.xhtml#chapter-4--exercises",
+      "children": [
+        {
+          "title": "Concepts",
+          "href": "text/ch012.xhtml#concepts-2"
+        },
+        {
+          "title": "Estimation and forecasting",
+          "href": "text/ch012.xhtml#estimation-and-forecasting"
+        },
+        {
+          "title": "Prioritization",
+          "href": "text/ch012.xhtml#prioritization"
+        },
+        {
+          "title": "Effort models",
+          "href": "text/ch012.xhtml#effort-models"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 12 — Quality Metrics",
+      "href": "text/ch058.xhtml#chapter-12--quality-metrics-1"
+    },
+    {
+      "title": "Chapter 4 — Open Resources",
+      "href": "text/ch013.xhtml#chapter-4--open-resources",
+      "children": [
+        {
+          "title": "Relative estimation, story points, and velocity",
+          "href": "text/ch013.xhtml#relative-estimation-story-points-and-velocity"
+        },
+        {
+          "title": "Consensus estimation: Planning Poker and Delphi",
+          "href": "text/ch013.xhtml#consensus-estimation-planning-poker-and-delphi"
+        },
+        {
+          "title": "Prioritization",
+          "href": "text/ch013.xhtml#prioritization-1"
+        },
+        {
+          "title": "Customer satisfaction: the Kano model",
+          "href": "text/ch013.xhtml#customer-satisfaction-the-kano-model"
+        },
+        {
+          "title": "Plan-driven / algorithmic estimation: COCOMO",
+          "href": "text/ch013.xhtml#plan-driven--algorithmic-estimation-cocomo"
+        },
+        {
+          "title": "Estimation, judgment, and its limits (background)",
+          "href": "text/ch013.xhtml#estimation-judgment-and-its-limits-background"
+        },
+        {
+          "title": "Appetite: fixed time, variable scope",
+          "href": "text/ch013.xhtml#appetite-fixed-time-variable-scope"
+        },
+        {
+          "title": "License note",
+          "href": "text/ch013.xhtml#license-note-3"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 13 — Software Engineering in the Age of AI",
+      "href": "text/ch058.xhtml#chapter-13--software-engineering-in-the-age-of-ai-1"
+    },
+    {
+      "title": "Chapter 5 — Use Cases",
+      "href": "text/ch014.xhtml#chapter-5--use-cases",
+      "children": [
+        {
+          "title": "5.1 Elements of a Use Case",
+          "href": "text/ch014.xhtml#id_51-elements-of-a-use-case"
+        },
+        {
+          "title": "5.2 Alternative Flows: Conditional Behaviors",
+          "href": "text/ch014.xhtml#id_52-alternative-flows-conditional-behaviors"
+        },
+        {
+          "title": "5.3 Writing Use Cases",
+          "href": "text/ch014.xhtml#id_53-writing-use-cases"
+        },
+        {
+          "title": "5.4 Use-Case Diagrams",
+          "href": "text/ch014.xhtml#id_54-use-case-diagrams"
+        },
+        {
+          "title": "5.5 Relationships between Use Cases",
+          "href": "text/ch014.xhtml#id_55-relationships-between-use-cases"
+        },
+        {
+          "title": "5.6 Conclusion",
+          "href": "text/ch014.xhtml#id_56-conclusion"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 14 — Delivery: CI/CD, DevOps, and Operations",
+      "href": "text/ch058.xhtml#chapter-14--delivery-cicd-devops-and-operations-1"
+    },
+    {
+      "title": "Chapter 5 — Exercises",
+      "href": "text/ch015.xhtml#chapter-5--exercises",
+      "children": [
+        {
+          "title": "Concepts",
+          "href": "text/ch015.xhtml#concepts-3"
+        },
+        {
+          "title": "Analysis",
+          "href": "text/ch015.xhtml#analysis-2"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 15 — Maintenance and Evolution",
+      "href": "text/ch058.xhtml#chapter-15--maintenance-and-evolution-1"
+    },
+    {
+      "title": "Chapter 5 — Open Resources",
+      "href": "text/ch016.xhtml#chapter-5--open-resources",
+      "children": [
+        {
+          "title": "Foundations: what a use case is",
+          "href": "text/ch016.xhtml#foundations-what-a-use-case-is"
+        },
+        {
+          "title": "Notation and diagrams",
+          "href": "text/ch016.xhtml#notation-and-diagrams"
+        },
+        {
+          "title": "Templates and practice",
+          "href": "text/ch016.xhtml#templates-and-practice"
+        },
+        {
+          "title": "License note",
+          "href": "text/ch016.xhtml#license-note-4"
+        }
+      ]
+    },
+    {
+      "title": "Appendix A — A Team Project",
+      "href": "text/ch058.xhtml#appendix-a--a-team-project"
+    },
+    {
+      "title": "Chapter 6 — Design and Architecture",
+      "href": "text/ch017.xhtml#chapter-6--design-and-architecture",
+      "children": [
+        {
+          "title": "6.1 The Role of Architecture",
+          "href": "text/ch017.xhtml#id_61-the-role-of-architecture"
+        },
+        {
+          "title": "6.2 Designing Modular Systems",
+          "href": "text/ch017.xhtml#id_62-designing-modular-systems"
+        },
+        {
+          "title": "6.3 Class Diagrams",
+          "href": "text/ch017.xhtml#id_63-class-diagrams"
+        },
+        {
+          "title": "6.4 Architectural Views",
+          "href": "text/ch017.xhtml#id_64-architectural-views"
+        },
+        {
+          "title": "6.5 Describing System Architecture",
+          "href": "text/ch017.xhtml#id_65-describing-system-architecture"
+        },
+        {
+          "title": "6.6 Conclusion",
+          "href": "text/ch017.xhtml#id_66-conclusion"
+        }
+      ]
+    },
+    {
+      "title": "Coverage vs. the ACM/IEEE SEEK body of knowledge",
+      "href": "text/ch058.xhtml#coverage-vs-the-acmieee-seek-body-of-knowledge"
+    },
+    {
+      "title": "Chapter 6 — Exercises",
+      "href": "text/ch018.xhtml#chapter-6--exercises",
+      "children": [
+        {
+          "title": "Concepts",
+          "href": "text/ch018.xhtml#concepts-4"
+        },
+        {
+          "title": "Analysis",
+          "href": "text/ch018.xhtml#analysis-3"
+        }
+      ]
+    },
+    {
+      "title": "Notes on coverage \u0026 gaps",
+      "href": "text/ch058.xhtml#notes-on-coverage--gaps"
+    },
+    {
+      "title": "Chapter 6 — Open Resources",
+      "href": "text/ch019.xhtml#chapter-6--open-resources",
+      "children": [
+        {
+          "title": "Modularity, abstraction, and interfaces",
+          "href": "text/ch019.xhtml#modularity-abstraction-and-interfaces"
+        },
+        {
+          "title": "Coupling, cohesion, and design principles",
+          "href": "text/ch019.xhtml#coupling-cohesion-and-design-principles"
+        },
+        {
+          "title": "Class diagrams and UML notation",
+          "href": "text/ch019.xhtml#class-diagrams-and-uml-notation"
+        },
+        {
+          "title": "Architectural views (used in §6.4)",
+          "href": "text/ch019.xhtml#architectural-views-used-in-64"
+        },
+        {
+          "title": "Quality-attribute scenarios",
+          "href": "text/ch019.xhtml#quality-attribute-scenarios"
+        },
+        {
+          "title": "License note",
+          "href": "text/ch019.xhtml#license-note-5"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 7 — Architectural Patterns",
+      "href": "text/ch020.xhtml#chapter-7--architectural-patterns",
+      "children": [
+        {
+          "title": "7.1 Software Layering",
+          "href": "text/ch020.xhtml#id_71-software-layering"
+        },
+        {
+          "title": "7.2 Three Building Blocks",
+          "href": "text/ch020.xhtml#id_72-three-building-blocks"
+        },
+        {
+          "title": "7.3 User Interfaces: Model-View-Controller",
+          "href": "text/ch020.xhtml#id_73-user-interfaces-model-view-controller"
+        },
+        {
+          "title": "7.4 Dataflow Architectures",
+          "href": "text/ch020.xhtml#id_74-dataflow-architectures"
+        },
+        {
+          "title": "7.5 Connecting Clients with Servers",
+          "href": "text/ch020.xhtml#id_75-connecting-clients-with-servers"
+        },
+        {
+          "title": "7.6 Families and Product Lines",
+          "href": "text/ch020.xhtml#id_76-families-and-product-lines"
+        },
+        {
+          "title": "7.7 Conclusion",
+          "href": "text/ch020.xhtml#id_77-conclusion"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 7 — Exercises",
+      "href": "text/ch021.xhtml#chapter-7--exercises",
+      "children": [
+        {
+          "title": "Concepts",
+          "href": "text/ch021.xhtml#concepts-5"
+        },
+        {
+          "title": "Analysis",
+          "href": "text/ch021.xhtml#analysis-4"
+        },
+        {
+          "title": "Choosing a pattern",
+          "href": "text/ch021.xhtml#choosing-a-pattern"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 7 — Open Resources",
+      "href": "text/ch022.xhtml#chapter-7--open-resources",
+      "children": [
+        {
+          "title": "Pattern catalogs (use across the whole chapter)",
+          "href": "text/ch022.xhtml#pattern-catalogs-use-across-the-whole-chapter"
+        },
+        {
+          "title": "Dataflow, streams, and big data (§7.4)",
+          "href": "text/ch022.xhtml#dataflow-streams-and-big-data-74"
+        },
+        {
+          "title": "Client-server, broker, and distributed structure (§7.5)",
+          "href": "text/ch022.xhtml#client-server-broker-and-distributed-structure-75"
+        },
+        {
+          "title": "Product lines (§7.6)",
+          "href": "text/ch022.xhtml#product-lines-76"
+        },
+        {
+          "title": "RESTful APIs (§7.5.4)",
+          "href": "text/ch022.xhtml#restful-apis-754"
+        },
+        {
+          "title": "Foundational background",
+          "href": "text/ch022.xhtml#foundational-background"
+        },
+        {
+          "title": "License note",
+          "href": "text/ch022.xhtml#license-note-6"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 8 — Version Control with Git",
+      "href": "text/ch023.xhtml#chapter-8--version-control-with-git",
+      "children": [
+        {
+          "title": "8.1 Why Version Control",
+          "href": "text/ch023.xhtml#id_81-why-version-control"
+        },
+        {
+          "title": "8.2 The Everyday Workflow",
+          "href": "text/ch023.xhtml#id_82-the-everyday-workflow"
+        },
+        {
+          "title": "8.3 Branching and Merging",
+          "href": "text/ch023.xhtml#id_83-branching-and-merging"
+        },
+        {
+          "title": "8.4 Working with Others",
+          "href": "text/ch023.xhtml#id_84-working-with-others"
+        },
+        {
+          "title": "8.5 Merge Conflicts",
+          "href": "text/ch023.xhtml#id_85-merge-conflicts"
+        },
+        {
+          "title": "8.6 Habits That Make Git Work for a Team",
+          "href": "text/ch023.xhtml#id_86-habits-that-make-git-work-for-a-team"
+        },
+        {
+          "title": "8.7 Markdown, READMEs, and Project Documentation",
+          "href": "text/ch023.xhtml#id_87-markdown-readmes-and-project-documentation"
+        },
+        {
+          "title": "8.8 Conclusion",
+          "href": "text/ch023.xhtml#id_88-conclusion"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 8 — Exercises",
+      "href": "text/ch024.xhtml#chapter-8--exercises",
+      "children": [
+        {
+          "title": "Concepts",
+          "href": "text/ch024.xhtml#concepts-6"
+        },
+        {
+          "title": "Analysis",
+          "href": "text/ch024.xhtml#analysis-5"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 8 — Open Resources",
+      "href": "text/ch025.xhtml#chapter-8--open-resources",
+      "children": [
+        {
+          "title": "Foundations: what Git is and how it works (used in §8.1)",
+          "href": "text/ch025.xhtml#foundations-what-git-is-and-how-it-works-used-in-81"
+        },
+        {
+          "title": "Building the right mental model (used in §8.1, §8.3)",
+          "href": "text/ch025.xhtml#building-the-right-mental-model-used-in-81-83"
+        },
+        {
+          "title": "Hands-on practice and everyday commands (used in §8.2, §8.4)",
+          "href": "text/ch025.xhtml#hands-on-practice-and-everyday-commands-used-in-82-84"
+        },
+        {
+          "title": "Team workflows and conflicts (used in §8.4, §8.5)",
+          "href": "text/ch025.xhtml#team-workflows-and-conflicts-used-in-84-85"
+        },
+        {
+          "title": "Commit and history discipline (used in §8.6)",
+          "href": "text/ch025.xhtml#commit-and-history-discipline-used-in-86"
+        },
+        {
+          "title": "Markdown and documentation (used in §8.7)",
+          "href": "text/ch025.xhtml#markdown-and-documentation-used-in-87"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 9 — Static Checking",
+      "href": "text/ch026.xhtml#chapter-9--static-checking",
+      "children": [
+        {
+          "title": "9.1 Architecture Reviews",
+          "href": "text/ch026.xhtml#id_91-architecture-reviews"
+        },
+        {
+          "title": "9.2 Conducting Software Inspections",
+          "href": "text/ch026.xhtml#id_92-conducting-software-inspections"
+        },
+        {
+          "title": "9.3 Code Reviews: Check Intent and Trust",
+          "href": "text/ch026.xhtml#id_93-code-reviews-check-intent-and-trust"
+        },
+        {
+          "title": "9.4 Automated Static Analysis",
+          "href": "text/ch026.xhtml#id_94-automated-static-analysis"
+        },
+        {
+          "title": "9.5 Conclusion",
+          "href": "text/ch026.xhtml#id_95-conclusion"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 9 — Exercises",
+      "href": "text/ch027.xhtml#chapter-9--exercises",
+      "children": [
+        {
+          "title": "Concepts",
+          "href": "text/ch027.xhtml#concepts-7"
+        },
+        {
+          "title": "Analysis",
+          "href": "text/ch027.xhtml#analysis-6"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 9 — Open Resources",
+      "href": "text/ch028.xhtml#chapter-9--open-resources",
+      "children": [
+        {
+          "title": "Code review (used in §9.3)",
+          "href": "text/ch028.xhtml#code-review-used-in-93"
+        },
+        {
+          "title": "Inspection (used in §9.2)",
+          "href": "text/ch028.xhtml#inspection-used-in-92"
+        },
+        {
+          "title": "Automated static analysis (used in §9.4)",
+          "href": "text/ch028.xhtml#automated-static-analysis-used-in-94"
+        },
+        {
+          "title": "Learning from failure (used in §9.1)",
+          "href": "text/ch028.xhtml#learning-from-failure-used-in-91"
+        },
+        {
+          "title": "License note",
+          "href": "text/ch028.xhtml#license-note-7"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 10 — Testing",
+      "href": "text/ch029.xhtml#chapter-10--testing",
+      "children": [
+        {
+          "title": "10.1 Overview of Testing",
+          "href": "text/ch029.xhtml#id_101-overview-of-testing"
+        },
+        {
+          "title": "10.2 Levels of Testing",
+          "href": "text/ch029.xhtml#id_102-levels-of-testing"
+        },
+        {
+          "title": "10.3 Code Coverage I: White-Box Testing",
+          "href": "text/ch029.xhtml#id_103-code-coverage-i-white-box-testing"
+        },
+        {
+          "title": "10.4 Input Coverage I: Black-Box Testing",
+          "href": "text/ch029.xhtml#id_104-input-coverage-i-black-box-testing"
+        },
+        {
+          "title": "10.5 Code Coverage II: MC/DC",
+          "href": "text/ch029.xhtml#id_105-code-coverage-ii-mcdc"
+        },
+        {
+          "title": "10.6 Input Coverage II: Combinatorial Testing",
+          "href": "text/ch029.xhtml#id_106-input-coverage-ii-combinatorial-testing"
+        },
+        {
+          "title": "10.7 Conclusion",
+          "href": "text/ch029.xhtml#id_107-conclusion"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 10 — Exercises",
+      "href": "text/ch030.xhtml#chapter-10--exercises",
+      "children": [
+        {
+          "title": "Concepts",
+          "href": "text/ch030.xhtml#concepts-8"
+        },
+        {
+          "title": "Analysis",
+          "href": "text/ch030.xhtml#analysis-7"
+        },
+        {
+          "title": "Do the work",
+          "href": "text/ch030.xhtml#do-the-work"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 10 — Open Resources",
+      "href": "text/ch031.xhtml#chapter-10--open-resources",
+      "children": [
+        {
+          "title": "Foundations: what to test and how",
+          "href": "text/ch031.xhtml#foundations-what-to-test-and-how"
+        },
+        {
+          "title": "Coverage criteria, white-box, and MC/DC",
+          "href": "text/ch031.xhtml#coverage-criteria-white-box-and-mcdc"
+        },
+        {
+          "title": "Black-box and combinatorial testing",
+          "href": "text/ch031.xhtml#black-box-and-combinatorial-testing"
+        },
+        {
+          "title": "Tools and practice",
+          "href": "text/ch031.xhtml#tools-and-practice"
+        },
+        {
+          "title": "License note",
+          "href": "text/ch031.xhtml#license-note-8"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 11 — Software Security",
+      "href": "text/ch032.xhtml#chapter-11--software-security",
+      "children": [
+        {
+          "title": "11.1 Security Is a Lifecycle Property",
+          "href": "text/ch032.xhtml#id_111-security-is-a-lifecycle-property"
+        },
+        {
+          "title": "11.2 The OWASP Top 10",
+          "href": "text/ch032.xhtml#id_112-the-owasp-top-10"
+        },
+        {
+          "title": "11.3 Finding Vulnerabilities, from Manual to Autonomous",
+          "href": "text/ch032.xhtml#id_113-finding-vulnerabilities-from-manual-to-autonomous"
+        },
+        {
+          "title": "11.4 The Software Supply Chain: A World of Weak Links",
+          "href": "text/ch032.xhtml#id_114-the-software-supply-chain-a-world-of-weak-links"
+        },
+        {
+          "title": "11.5 Building Security In",
+          "href": "text/ch032.xhtml#id_115-building-security-in"
+        },
+        {
+          "title": "11.6 Conclusion",
+          "href": "text/ch032.xhtml#id_116-conclusion"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 11 — Exercises",
+      "href": "text/ch033.xhtml#chapter-11--exercises",
+      "children": [
+        {
+          "title": "Concepts",
+          "href": "text/ch033.xhtml#concepts-9"
+        },
+        {
+          "title": "Analysis",
+          "href": "text/ch033.xhtml#analysis-8"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 11 — Open Resources",
+      "href": "text/ch034.xhtml#chapter-11--open-resources",
+      "children": [
+        {
+          "title": "The OWASP Top 10 and hands-on practice",
+          "href": "text/ch034.xhtml#the-owasp-top-10-and-hands-on-practice"
+        },
+        {
+          "title": "AI in security",
+          "href": "text/ch034.xhtml#ai-in-security"
+        },
+        {
+          "title": "The software supply chain",
+          "href": "text/ch034.xhtml#the-software-supply-chain"
+        },
+        {
+          "title": "Standards, frameworks, and courses",
+          "href": "text/ch034.xhtml#standards-frameworks-and-courses"
+        },
+        {
+          "title": "License note",
+          "href": "text/ch034.xhtml#license-note-9"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 12 — Quality Metrics",
+      "href": "text/ch035.xhtml#chapter-12--quality-metrics",
+      "children": [
+        {
+          "title": "12.1 Meaningful Metrics",
+          "href": "text/ch035.xhtml#id_121-meaningful-metrics"
+        },
+        {
+          "title": "12.2 Software Quality",
+          "href": "text/ch035.xhtml#id_122-software-quality"
+        },
+        {
+          "title": "12.3 Graphical Displays of Data Sets",
+          "href": "text/ch035.xhtml#id_123-graphical-displays-of-data-sets"
+        },
+        {
+          "title": "12.4 Product Quality: Measuring Defects",
+          "href": "text/ch035.xhtml#id_124-product-quality-measuring-defects"
+        },
+        {
+          "title": "12.5 Ops Quality Improvement: A Case Study",
+          "href": "text/ch035.xhtml#id_125-ops-quality-improvement-a-case-study"
+        },
+        {
+          "title": "12.6 Data Dispersion: Boxplots and Histograms",
+          "href": "text/ch035.xhtml#id_126-data-dispersion-boxplots-and-histograms"
+        },
+        {
+          "title": "12.7 Data Dispersion: Statistics",
+          "href": "text/ch035.xhtml#id_127-data-dispersion-statistics"
+        },
+        {
+          "title": "12.8 Confidence Intervals",
+          "href": "text/ch035.xhtml#id_128-confidence-intervals"
+        },
+        {
+          "title": "12.9 Simple Linear Regression",
+          "href": "text/ch035.xhtml#id_129-simple-linear-regression"
+        },
+        {
+          "title": "12.10 Conclusion",
+          "href": "text/ch035.xhtml#id_1210-conclusion"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 12 — Exercises",
+      "href": "text/ch036.xhtml#chapter-12--exercises",
+      "children": [
+        {
+          "title": "Concepts",
+          "href": "text/ch036.xhtml#concepts-10"
+        },
+        {
+          "title": "Analysis",
+          "href": "text/ch036.xhtml#analysis-9"
+        },
+        {
+          "title": "Calculation",
+          "href": "text/ch036.xhtml#calculation"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 12 — Open Resources",
+      "href": "text/ch037.xhtml#chapter-12--open-resources",
+      "children": [
+        {
+          "title": "Statistics foundations (§§12.6–12.9)",
+          "href": "text/ch037.xhtml#statistics-foundations-126129"
+        },
+        {
+          "title": "Software metrics and quality (§§12.1–12.5)",
+          "href": "text/ch037.xhtml#software-metrics-and-quality-121125"
+        },
+        {
+          "title": "Reference and data",
+          "href": "text/ch037.xhtml#reference-and-data"
+        },
+        {
+          "title": "License note",
+          "href": "text/ch037.xhtml#license-note-10"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 13 — Software Engineering in the Age of AI",
+      "href": "text/ch038.xhtml#chapter-13--software-engineering-in-the-age-of-ai",
+      "children": [
+        {
+          "title": "13.1 What AI Changes — and What It Doesn’t",
+          "href": "text/ch038.xhtml#id_131-what-ai-changes--and-what-it-doesnt"
+        },
+        {
+          "title": "13.2 AI Across the Lifecycle",
+          "href": "text/ch038.xhtml#id_132-ai-across-the-lifecycle"
+        },
+        {
+          "title": "13.3 The Evidence: Productivity, Quality, Security",
+          "href": "text/ch038.xhtml#id_133-the-evidence-productivity-quality-security"
+        },
+        {
+          "title": "13.4 Outcome Engineering: The o16g Manifesto",
+          "href": "text/ch038.xhtml#id_134-outcome-engineering-the-o16g-manifesto"
+        },
+        {
+          "title": "13.5 Spec-Driven Development",
+          "href": "text/ch038.xhtml#id_135-spec-driven-development"
+        },
+        {
+          "title": "13.6 Context as Infrastructure: CLAUDE.md, AGENTS.md, and Skills",
+          "href": "text/ch038.xhtml#id_136-context-as-infrastructure-claudemd-agentsmd-and-skills"
+        },
+        {
+          "title": "13.7 Loop Engineering",
+          "href": "text/ch038.xhtml#id_137-loop-engineering"
+        },
+        {
+          "title": "13.8 Principles for the AI-Augmented Engineer",
+          "href": "text/ch038.xhtml#id_138-principles-for-the-ai-augmented-engineer"
+        },
+        {
+          "title": "13.9 Conclusion",
+          "href": "text/ch038.xhtml#id_139-conclusion"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 13 — Exercises",
+      "href": "text/ch039.xhtml#chapter-13--exercises",
+      "children": [
+        {
+          "title": "Concepts",
+          "href": "text/ch039.xhtml#concepts-11"
+        },
+        {
+          "title": "Analysis",
+          "href": "text/ch039.xhtml#analysis-10"
+        },
+        {
+          "title": "The o16g manifesto",
+          "href": "text/ch039.xhtml#the-o16g-manifesto"
+        },
+        {
+          "title": "Agentic practice",
+          "href": "text/ch039.xhtml#agentic-practice"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 13 — Open Resources",
+      "href": "text/ch040.xhtml#chapter-13--open-resources",
+      "children": [
+        {
+          "title": "The o16g manifesto (used in §13.4)",
+          "href": "text/ch040.xhtml#the-o16g-manifesto-used-in-134"
+        },
+        {
+          "title": "Productivity evidence (used in §13.1.4, §13.3)",
+          "href": "text/ch040.xhtml#productivity-evidence-used-in-1314-133"
+        },
+        {
+          "title": "Code quality \u0026 security (used in §13.3)",
+          "href": "text/ch040.xhtml#code-quality--security-used-in-133"
+        },
+        {
+          "title": "AI in requirements, design, testing (used in §13.2)",
+          "href": "text/ch040.xhtml#ai-in-requirements-design-testing-used-in-132"
+        },
+        {
+          "title": "Agentic development in practice (used in §§13.5–13.7)",
+          "href": "text/ch040.xhtml#agentic-development-in-practice-used-in-135137"
+        },
+        {
+          "title": "Foundations \u0026 agentic engineering",
+          "href": "text/ch040.xhtml#foundations--agentic-engineering"
+        },
+        {
+          "title": "License note",
+          "href": "text/ch040.xhtml#license-note-11"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 14 — Delivery: CI/CD, DevOps, and Operations",
+      "href": "text/ch041.xhtml#chapter-14--delivery-cicd-devops-and-operations",
+      "children": [
+        {
+          "title": "14.1 SaaS and the Cloud",
+          "href": "text/ch041.xhtml#id_141-saas-and-the-cloud"
+        },
+        {
+          "title": "14.2 Continuous Integration Pipelines",
+          "href": "text/ch041.xhtml#id_142-continuous-integration-pipelines"
+        },
+        {
+          "title": "14.3 Continuous Deployment",
+          "href": "text/ch041.xhtml#id_143-continuous-deployment"
+        },
+        {
+          "title": "14.4 Packaging and Running a Service: Docker and Compose",
+          "href": "text/ch041.xhtml#id_144-packaging-and-running-a-service-docker-and-compose"
+        },
+        {
+          "title": "14.5 Reaching Users: DNS, TLS, and the Edge",
+          "href": "text/ch041.xhtml#id_145-reaching-users-dns-tls-and-the-edge"
+        },
+        {
+          "title": "14.6 Continuous Security Pipelines",
+          "href": "text/ch041.xhtml#id_146-continuous-security-pipelines"
+        },
+        {
+          "title": "14.7 DORA Delivery Metrics",
+          "href": "text/ch041.xhtml#id_147-dora-delivery-metrics"
+        },
+        {
+          "title": "14.8 Conclusion",
+          "href": "text/ch041.xhtml#id_148-conclusion"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 14 — Exercises",
+      "href": "text/ch042.xhtml#chapter-14--exercises",
+      "children": [
+        {
+          "title": "Concepts",
+          "href": "text/ch042.xhtml#concepts-12"
+        },
+        {
+          "title": "Analysis",
+          "href": "text/ch042.xhtml#analysis-11"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 14 — Open Resources",
+      "href": "text/ch043.xhtml#chapter-14--open-resources",
+      "children": [
+        {
+          "title": "Primary sources for the case studies",
+          "href": "text/ch043.xhtml#primary-sources-for-the-case-studies"
+        },
+        {
+          "title": "The cloud and distributed systems",
+          "href": "text/ch043.xhtml#the-cloud-and-distributed-systems"
+        },
+        {
+          "title": "CI/CD and deployment practice",
+          "href": "text/ch043.xhtml#cicd-and-deployment-practice"
+        },
+        {
+          "title": "Deployment mechanics: containers, DNS, and TLS",
+          "href": "text/ch043.xhtml#deployment-mechanics-containers-dns-and-tls"
+        },
+        {
+          "title": "DORA and delivery research",
+          "href": "text/ch043.xhtml#dora-and-delivery-research"
+        },
+        {
+          "title": "Continuous security and the supply chain",
+          "href": "text/ch043.xhtml#continuous-security-and-the-supply-chain"
+        },
+        {
+          "title": "License note",
+          "href": "text/ch043.xhtml#license-note-12"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 15 — Maintenance and Evolution",
+      "href": "text/ch044.xhtml#chapter-15--maintenance-and-evolution",
+      "children": [
+        {
+          "title": "15.1 What Makes Code Legacy",
+          "href": "text/ch044.xhtml#id_151-what-makes-code-legacy"
+        },
+        {
+          "title": "15.2 Characterization Tests",
+          "href": "text/ch044.xhtml#id_152-characterization-tests"
+        },
+        {
+          "title": "15.3 Refactoring Under Green Tests",
+          "href": "text/ch044.xhtml#id_153-refactoring-under-green-tests"
+        },
+        {
+          "title": "15.4 Repository Stewardship",
+          "href": "text/ch044.xhtml#id_154-repository-stewardship"
+        },
+        {
+          "title": "15.5 Technical Debt",
+          "href": "text/ch044.xhtml#id_155-technical-debt"
+        },
+        {
+          "title": "15.6 Strangler Fig versus Big-Bang Rewrite",
+          "href": "text/ch044.xhtml#id_156-strangler-fig-versus-big-bang-rewrite"
+        },
+        {
+          "title": "15.7 Conclusion",
+          "href": "text/ch044.xhtml#id_157-conclusion"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 15 — Exercises",
+      "href": "text/ch045.xhtml#chapter-15--exercises",
+      "children": [
+        {
+          "title": "Concepts",
+          "href": "text/ch045.xhtml#concepts-13"
+        },
+        {
+          "title": "Analysis",
+          "href": "text/ch045.xhtml#analysis-12"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 15 — Open Resources",
+      "href": "text/ch046.xhtml#chapter-15--open-resources",
+      "children": [
+        {
+          "title": "Legacy code, refactoring, and technical debt",
+          "href": "text/ch046.xhtml#legacy-code-refactoring-and-technical-debt"
+        },
+        {
+          "title": "License note",
+          "href": "text/ch046.xhtml#license-note-13"
+        }
+      ]
+    },
+    {
+      "title": "Appendix A — The Team Project",
+      "href": "text/ch047.xhtml#appendix-a--the-team-project",
+      "children": [
+        {
+          "title": "A.1 Overview",
+          "href": "text/ch047.xhtml#a1-overview"
+        },
+        {
+          "title": "A.2 Project Proposal",
+          "href": "text/ch047.xhtml#a2-project-proposal"
+        },
+        {
+          "title": "A.3 Skeletal System: Status Report 1",
+          "href": "text/ch047.xhtml#a3-skeletal-system-status-report-1"
+        },
+        {
+          "title": "A.4 Viable System: Status Report 2",
+          "href": "text/ch047.xhtml#a4-viable-system-status-report-2"
+        },
+        {
+          "title": "A.5 Comprehensive Final Report",
+          "href": "text/ch047.xhtml#a5-comprehensive-final-report"
+        },
+        {
+          "title": "A.6 Grading Your Own Repository",
+          "href": "text/ch047.xhtml#a6-grading-your-own-repository"
+        },
+        {
+          "title": "A.7 Conclusion",
+          "href": "text/ch047.xhtml#a7-conclusion"
+        }
+      ]
+    },
+    {
+      "title": "Running the Project on Two-Week Sprints",
+      "href": "text/ch048.xhtml#running-the-project-on-two-week-sprints",
+      "children": [
+        {
+          "title": "Dual hats: every team is both customer and developer",
+          "href": "text/ch048.xhtml#dual-hats-every-team-is-both-customer-and-developer"
+        },
+        {
+          "title": "The cadence",
+          "href": "text/ch048.xhtml#the-cadence"
+        },
+        {
+          "title": "Sprint 0: from pitch to deployed skeleton",
+          "href": "text/ch048.xhtml#sprint-0-from-pitch-to-deployed-skeleton"
+        },
+        {
+          "title": "Sprints 1–4: build cycles with a hardening arc",
+          "href": "text/ch048.xhtml#sprints-14-build-cycles-with-a-hardening-arc"
+        },
+        {
+          "title": "Every sprint: the common cycle",
+          "href": "text/ch048.xhtml#every-sprint-the-common-cycle"
+        },
+        {
+          "title": "Demo Day rules",
+          "href": "text/ch048.xhtml#demo-day-rules"
+        },
+        {
+          "title": "Appetite per sprint",
+          "href": "text/ch048.xhtml#appetite-per-sprint"
+        },
+        {
+          "title": "Team and customer reviews",
+          "href": "text/ch048.xhtml#team-and-customer-reviews"
+        },
+        {
+          "title": "End of term",
+          "href": "text/ch048.xhtml#end-of-term"
+        }
+      ]
+    },
+    {
+      "title": "Appendix A — Project Exercises",
+      "href": "text/ch049.xhtml#appendix-a--project-exercises",
+      "children": [
+        {
+          "title": "Weeks 1–2 — Team and idea",
+          "href": "text/ch049.xhtml#weeks-12--team-and-idea"
+        },
+        {
+          "title": "Weeks 3–4 — Proposal",
+          "href": "text/ch049.xhtml#weeks-34--proposal"
+        },
+        {
+          "title": "Weeks 5–7 — Skeletal system (Status Report 1)",
+          "href": "text/ch049.xhtml#weeks-57--skeletal-system-status-report-1"
+        },
+        {
+          "title": "Weeks 8–11 — Viable system (Status Report 2)",
+          "href": "text/ch049.xhtml#weeks-811--viable-system-status-report-2"
+        },
+        {
+          "title": "Weeks 12–15 — Final report and demo",
+          "href": "text/ch049.xhtml#weeks-1215--final-report-and-demo"
+        }
+      ]
+    },
+    {
+      "title": "Appendix A — Open Resources",
+      "href": "text/ch050.xhtml#appendix-a--open-resources",
+      "children": [
+        {
+          "title": "Running a team project end to end",
+          "href": "text/ch050.xhtml#running-a-team-project-end-to-end"
+        },
+        {
+          "title": "Requirements for the proposal (A.2)",
+          "href": "text/ch050.xhtml#requirements-for-the-proposal-a2"
+        },
+        {
+          "title": "Team effectiveness (A.1.2)",
+          "href": "text/ch050.xhtml#team-effectiveness-a12"
+        },
+        {
+          "title": "Process (A.1.1, referenced from Ch. 2)",
+          "href": "text/ch050.xhtml#process-a11-referenced-from-ch-2"
+        },
+        {
+          "title": "Curriculum context (why the course is shaped this way)",
+          "href": "text/ch050.xhtml#curriculum-context-why-the-course-is-shaped-this-way"
+        },
+        {
+          "title": "Cross-team customer models (the dual-hat swap)",
+          "href": "text/ch050.xhtml#cross-team-customer-models-the-dual-hat-swap"
+        },
+        {
+          "title": "Metrics for status reports and the final report (referenced from Ch. 12)",
+          "href": "text/ch050.xhtml#metrics-for-status-reports-and-the-final-report-referenced-from-ch-12"
+        },
+        {
+          "title": "License note",
+          "href": "text/ch050.xhtml#license-note-14"
+        }
+      ]
+    },
+    {
+      "title": "Idea Pitch —",
+      "href": "text/ch051.xhtml#idea-pitch-",
+      "children": [
+        {
+          "title": "1. Problem",
+          "href": "text/ch051.xhtml#id_1-problem"
+        },
+        {
+          "title": "2. Appetite",
+          "href": "text/ch051.xhtml#id_2-appetite"
+        },
+        {
+          "title": "3. Rough solution",
+          "href": "text/ch051.xhtml#id_3-rough-solution"
+        },
+        {
+          "title": "4. Rabbit holes",
+          "href": "text/ch051.xhtml#id_4-rabbit-holes"
+        },
+        {
+          "title": "5. No-gos",
+          "href": "text/ch051.xhtml#id_5-no-gos"
+        },
+        {
+          "title": "6. Customer contact",
+          "href": "text/ch051.xhtml#id_6-customer-contact"
+        }
+      ]
+    },
+    {
+      "title": "Project Proposal — \u003cTeam / Project Name\u003e",
+      "href": "text/ch052.xhtml#project-proposal--team--project-name",
+      "children": [
+        {
+          "title": "1. Problem statement",
+          "href": "text/ch052.xhtml#id_1-problem-statement"
+        },
+        {
+          "title": "2. Users and stakeholders",
+          "href": "text/ch052.xhtml#id_2-users-and-stakeholders"
+        },
+        {
+          "title": "3. Proposed solution and value",
+          "href": "text/ch052.xhtml#id_3-proposed-solution-and-value"
+        },
+        {
+          "title": "4. Key user stories / features (prioritized)",
+          "href": "text/ch052.xhtml#id_4-key-user-stories--features-prioritized"
+        },
+        {
+          "title": "5. Scope boundaries",
+          "href": "text/ch052.xhtml#id_5-scope-boundaries"
+        },
+        {
+          "title": "6. Intended architecture and technology",
+          "href": "text/ch052.xhtml#id_6-intended-architecture-and-technology"
+        },
+        {
+          "title": "7. Process and team plan",
+          "href": "text/ch052.xhtml#id_7-process-and-team-plan"
+        },
+        {
+          "title": "8. Risks and how you’ll probe them",
+          "href": "text/ch052.xhtml#id_8-risks-and-how-youll-probe-them"
+        },
+        {
+          "title": "9. Definition of done for the term",
+          "href": "text/ch052.xhtml#id_9-definition-of-done-for-the-term"
+        }
+      ]
+    },
+    {
+      "title": "Sprint Report \u003c1–4\u003e — \u003cTeam / Project Name\u003e",
+      "href": "text/ch053.xhtml#sprint-report-14--team--project-name",
+      "children": [
+        {
+          "title": "1. Sprint goal",
+          "href": "text/ch053.xhtml#id_1-sprint-goal"
+        },
+        {
+          "title": "2. What shipped (demo notes)",
+          "href": "text/ch053.xhtml#id_2-what-shipped-demo-notes"
+        },
+        {
+          "title": "3. Stories: planned vs. done",
+          "href": "text/ch053.xhtml#id_3-stories-planned-vs-done"
+        },
+        {
+          "title": "4. Quality",
+          "href": "text/ch053.xhtml#id_4-quality"
+        },
+        {
+          "title": "4a. Process evidence",
+          "href": "text/ch053.xhtml#id_4a-process-evidence"
+        },
+        {
+          "title": "5. Scopes and hill chart",
+          "href": "text/ch053.xhtml#id_5-scopes-and-hill-chart"
+        },
+        {
+          "title": "6. Scope cuts and nice-to-haves dropped",
+          "href": "text/ch053.xhtml#id_6-scope-cuts-and-nice-to-haves-dropped"
+        },
+        {
+          "title": "7. Risks and blockers",
+          "href": "text/ch053.xhtml#id_7-risks-and-blockers"
+        },
+        {
+          "title": "8. Next sprint plan",
+          "href": "text/ch053.xhtml#id_8-next-sprint-plan"
+        },
+        {
+          "title": "9. Contributions",
+          "href": "text/ch053.xhtml#id_9-contributions"
+        }
+      ]
+    },
+    {
+      "title": "Status Report \u003c1 | 2\u003e — \u003cTeam / Project Name\u003e",
+      "href": "text/ch054.xhtml#status-report-1--2--team--project-name",
+      "children": [
+        {
+          "title": "1. Summary",
+          "href": "text/ch054.xhtml#id_1-summary"
+        },
+        {
+          "title": "2. What works right now",
+          "href": "text/ch054.xhtml#id_2-what-works-right-now"
+        },
+        {
+          "title": "3. Architecture (current)",
+          "href": "text/ch054.xhtml#id_3-architecture-current"
+        },
+        {
+          "title": "4. Process and progress",
+          "href": "text/ch054.xhtml#id_4-process-and-progress"
+        },
+        {
+          "title": "5. Testing and quality (Report 2 emphasizes this)",
+          "href": "text/ch054.xhtml#id_5-testing-and-quality-report-2-emphasizes-this"
+        },
+        {
+          "title": "6. Metrics so far (Report 2)",
+          "href": "text/ch054.xhtml#id_6-metrics-so-far-report-2"
+        },
+        {
+          "title": "7. Risks, blockers, and changes",
+          "href": "text/ch054.xhtml#id_7-risks-blockers-and-changes"
+        },
+        {
+          "title": "8. Plan for next milestone",
+          "href": "text/ch054.xhtml#id_8-plan-for-next-milestone"
+        },
+        {
+          "title": "9. Individual contributions this period",
+          "href": "text/ch054.xhtml#id_9-individual-contributions-this-period"
+        }
+      ]
+    },
+    {
+      "title": "Team \u0026 Customer Review \u003c#0–4\u003e —",
+      "href": "text/ch055.xhtml#team--customer-review-04-",
+      "children": [
+        {
+          "title": "1. Retrospective: keep / change / try",
+          "href": "text/ch055.xhtml#id_1-retrospective-keep--change--try"
+        },
+        {
+          "title": "2. Improvement committed last review — did it stick?",
+          "href": "text/ch055.xhtml#id_2-improvement-committed-last-review--did-it-stick"
+        },
+        {
+          "title": "3. New committed improvement",
+          "href": "text/ch055.xhtml#id_3-new-committed-improvement"
+        },
+        {
+          "title": "4. Peer contribution",
+          "href": "text/ch055.xhtml#id_4-peer-contribution"
+        },
+        {
+          "title": "5. Customer feedback captured",
+          "href": "text/ch055.xhtml#id_5-customer-feedback-captured"
+        },
+        {
+          "title": "6. Escalations",
+          "href": "text/ch055.xhtml#id_6-escalations"
+        }
+      ]
+    },
+    {
+      "title": "Final Report — \u003cTeam / Project Name\u003e",
+      "href": "text/ch056.xhtml#final-report--team--project-name",
+      "children": [
+        {
+          "title": "1. Problem and users",
+          "href": "text/ch056.xhtml#id_1-problem-and-users"
+        },
+        {
+          "title": "2. Users and requirements",
+          "href": "text/ch056.xhtml#id_2-users-and-requirements"
+        },
+        {
+          "title": "3. Architecture",
+          "href": "text/ch056.xhtml#id_3-architecture"
+        },
+        {
+          "title": "4. Process used",
+          "href": "text/ch056.xhtml#id_4-process-used"
+        },
+        {
+          "title": "5. Testing and quality metrics",
+          "href": "text/ch056.xhtml#id_5-testing-and-quality-metrics"
+        },
+        {
+          "title": "6. Results",
+          "href": "text/ch056.xhtml#id_6-results"
+        },
+        {
+          "title": "7. Retrospective",
+          "href": "text/ch056.xhtml#id_7-retrospective"
+        },
+        {
+          "title": "8. AI use and provenance",
+          "href": "text/ch056.xhtml#id_8-ai-use-and-provenance"
+        },
+        {
+          "title": "9. Individual contributions",
+          "href": "text/ch056.xhtml#id_9-individual-contributions"
+        },
+        {
+          "title": "10. Appendix (optional)",
+          "href": "text/ch056.xhtml#id_10-appendix-optional"
+        }
+      ]
+    },
+    {
+      "title": "Individual Write-up —",
+      "href": "text/ch057.xhtml#individual-write-up-",
+      "children": [
+        {
+          "title": "1. What I built",
+          "href": "text/ch057.xhtml#id_1-what-i-built"
+        },
+        {
+          "title": "2. What I learned",
+          "href": "text/ch057.xhtml#id_2-what-i-learned"
+        },
+        {
+          "title": "3. Working on a team",
+          "href": "text/ch057.xhtml#id_3-working-on-a-team"
+        },
+        {
+          "title": "4. What I’d do differently",
+          "href": "text/ch057.xhtml#id_4-what-id-do-differently"
+        },
+        {
+          "title": "5. Self-assessment",
+          "href": "text/ch057.xhtml#id_5-self-assessment"
+        }
+      ]
+    },
+    {
+      "title": "Open Curriculum Resource Map",
+      "href": "text/ch058.xhtml#open-curriculum-resource-map",
+      "children": [
+        {
+          "title": "The four anchor courses",
+          "href": "text/ch058.xhtml#the-four-anchor-courses"
+        },
+        {
+          "title": "Chapter 1 — Introduction",
+          "href": "text/ch058.xhtml#chapter-1--introduction-1"
+        },
+        {
+          "title": "Chapter 2 — Software Development Processes",
+          "href": "text/ch058.xhtml#chapter-2--software-development-processes-1"
+        },
+        {
+          "title": "Chapter 3 — User Requirements",
+          "href": "text/ch058.xhtml#chapter-3--user-requirements-1"
+        },
+        {
+          "title": "Chapter 4 — Requirements Analysis",
+          "href": "text/ch058.xhtml#chapter-4--requirements-analysis-1"
+        },
+        {
+          "title": "Chapter 5 — Use Cases",
+          "href": "text/ch058.xhtml#chapter-5--use-cases-1"
+        },
+        {
+          "title": "Chapter 6 — Design and Architecture",
+          "href": "text/ch058.xhtml#chapter-6--design-and-architecture-1"
+        },
+        {
+          "title": "Chapter 7 — Architectural Patterns",
+          "href": "text/ch058.xhtml#chapter-7--architectural-patterns-1"
+        },
+        {
+          "title": "Chapter 8 — Version Control with Git",
+          "href": "text/ch058.xhtml#chapter-8--version-control-with-git-1"
+        },
+        {
+          "title": "Chapter 9 — Static Checking",
+          "href": "text/ch058.xhtml#chapter-9--static-checking-1"
+        },
+        {
+          "title": "Chapter 10 — Testing",
+          "href": "text/ch058.xhtml#chapter-10--testing-1"
+        },
+        {
+          "title": "Chapter 11 — Software Security",
+          "href": "text/ch058.xhtml#chapter-11--software-security-1"
+        },
+        {
+          "title": "Chapter 12 — Quality Metrics",
+          "href": "text/ch058.xhtml#chapter-12--quality-metrics-1"
+        },
+        {
+          "title": "Chapter 13 — Software Engineering in the Age of AI",
+          "href": "text/ch058.xhtml#chapter-13--software-engineering-in-the-age-of-ai-1"
+        },
+        {
+          "title": "Chapter 14 — Delivery: CI/CD, DevOps, and Operations",
+          "href": "text/ch058.xhtml#chapter-14--delivery-cicd-devops-and-operations-1"
+        },
+        {
+          "title": "Chapter 15 — Maintenance and Evolution",
+          "href": "text/ch058.xhtml#chapter-15--maintenance-and-evolution-1"
+        },
+        {
+          "title": "Appendix A — A Team Project",
+          "href": "text/ch058.xhtml#appendix-a--a-team-project"
+        },
+        {
+          "title": "Coverage vs. the ACM/IEEE SEEK body of knowledge",
+          "href": "text/ch058.xhtml#coverage-vs-the-acmieee-seek-body-of-knowledge"
+        },
+        {
+          "title": "Notes on coverage \u0026 gaps",
+          "href": "text/ch058.xhtml#notes-on-coverage--gaps"
+        }
+      ]
+    },
+    {
+      "title": "Course Plans",
+      "href": "text/ch059.xhtml#course-plans",
+      "children": [
+        {
+          "title": "Variant A: 15-week milestone track",
+          "href": "text/ch059.xhtml#variant-a-15-week-milestone-track"
+        },
+        {
+          "title": "Variant B: 16-week semester on two-week sprints",
+          "href": "text/ch059.xhtml#variant-b-16-week-semester-on-two-week-sprints"
+        },
+        {
+          "title": "Assessment (suggested weights)",
+          "href": "text/ch059.xhtml#assessment-suggested-weights"
+        },
+        {
+          "title": "Learning outcomes",
+          "href": "text/ch059.xhtml#learning-outcomes"
+        },
+        {
+          "title": "Adapting the plan",
+          "href": "text/ch059.xhtml#adapting-the-plan"
+        }
+      ]
+    },
+    {
+      "title": "Contributing",
+      "href": "text/ch060.xhtml#contributing",
+      "children": [
+        {
+          "title": "Ground rules",
+          "href": "text/ch060.xhtml#ground-rules"
+        },
+        {
+          "title": "Repository layout",
+          "href": "text/ch060.xhtml#repository-layout"
+        },
+        {
+          "title": "House style",
+          "href": "text/ch060.xhtml#house-style"
+        },
+        {
+          "title": "Making a change",
+          "href": "text/ch060.xhtml#making-a-change"
+        },
+        {
+          "title": "Reporting issues",
+          "href": "text/ch060.xhtml#reporting-issues"
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

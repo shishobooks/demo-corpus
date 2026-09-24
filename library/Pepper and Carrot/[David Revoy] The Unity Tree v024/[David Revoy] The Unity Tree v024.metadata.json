@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "title": "The Unity Tree",
+  "sort_title": "Unity Tree, The",
+  "description": "Pepper and Carrot are invited to the Unity Tree, where every school of witchcraft gathers once a year, and the evening does not go as planned. Episode 24 of the free and open webcomic.\n\nCredit: Pepper\u0026Carrot by David Revoy, peppercarrot.com, pages downscaled and packed into CBZ. License: CC BY 4.0.",
+  "authors": [
+    {
+      "name": "David Revoy",
+      "sort_name": "Revoy, David",
+      "sort_order": 1,
+      "role": "writer"
+    },
+    {
+      "name": "David Revoy",
+      "sort_name": "Revoy, David",
+      "sort_order": 2,
+      "role": "penciller"
+    }
+  ],
+  "series": [
+    {
+      "name": "Pepper\u0026Carrot",
+      "sort_name": "Pepper\u0026Carrot",
+      "number": 24,
+      "sort_order": 1
+    }
+  ],
+  "genres": [
+    "Comics",
+    "Fantasy"
+  ],
+  "tags": [
+    "webcomic"
+  ]
+}

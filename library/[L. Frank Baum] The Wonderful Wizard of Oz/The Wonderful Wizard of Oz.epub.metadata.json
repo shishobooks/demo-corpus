@@ -1,0 +1,228 @@
+{
+  "version": 1,
+  "url": "https://www.gutenberg.org/ebooks/55",
+  "publisher": "Standard Ebooks",
+  "release_date": "2018-12-12",
+  "name": "The Wonderful Wizard of Oz",
+  "chapters": [
+    {
+      "title": "Titlepage",
+      "href": "text/titlepage.xhtml"
+    },
+    {
+      "title": "I: The Cyclone",
+      "href": "text/chapter-1.xhtml"
+    },
+    {
+      "title": "Imprint",
+      "href": "text/imprint.xhtml"
+    },
+    {
+      "title": "II: The Council with the Munchkins",
+      "href": "text/chapter-2.xhtml"
+    },
+    {
+      "title": "Introduction",
+      "href": "text/introduction.xhtml"
+    },
+    {
+      "title": "III: How Dorothy Saved the Scarecrow",
+      "href": "text/chapter-3.xhtml"
+    },
+    {
+      "title": "The Wonderful Wizard of Oz",
+      "href": "text/halftitlepage.xhtml",
+      "children": [
+        {
+          "title": "I: The Cyclone",
+          "href": "text/chapter-1.xhtml"
+        },
+        {
+          "title": "II: The Council with the Munchkins",
+          "href": "text/chapter-2.xhtml"
+        },
+        {
+          "title": "III: How Dorothy Saved the Scarecrow",
+          "href": "text/chapter-3.xhtml"
+        },
+        {
+          "title": "IV: The Road Through the Forest",
+          "href": "text/chapter-4.xhtml"
+        },
+        {
+          "title": "V: The Rescue of the Tin Woodman",
+          "href": "text/chapter-5.xhtml"
+        },
+        {
+          "title": "VI: The Cowardly Lion",
+          "href": "text/chapter-6.xhtml"
+        },
+        {
+          "title": "VII: The Journey to the Great Oz",
+          "href": "text/chapter-7.xhtml"
+        },
+        {
+          "title": "VIII: The Deadly Poppy Field",
+          "href": "text/chapter-8.xhtml"
+        },
+        {
+          "title": "IX: The Queen of the Field Mice",
+          "href": "text/chapter-9.xhtml"
+        },
+        {
+          "title": "X: The Guardian of the Gate",
+          "href": "text/chapter-10.xhtml"
+        },
+        {
+          "title": "XI: The Wonderful City of Oz",
+          "href": "text/chapter-11.xhtml"
+        },
+        {
+          "title": "XII: The Search for the Wicked Witch",
+          "href": "text/chapter-12.xhtml"
+        },
+        {
+          "title": "XIII: The Rescue",
+          "href": "text/chapter-13.xhtml"
+        },
+        {
+          "title": "XIV: The Winged Monkeys",
+          "href": "text/chapter-14.xhtml"
+        },
+        {
+          "title": "XV: The Discovery of Oz, the Terrible",
+          "href": "text/chapter-15.xhtml"
+        },
+        {
+          "title": "XVI: The Magic Art of the Great Humbug",
+          "href": "text/chapter-16.xhtml"
+        },
+        {
+          "title": "XVII: How the Balloon Was Launched",
+          "href": "text/chapter-17.xhtml"
+        },
+        {
+          "title": "XVIII: Away to the South",
+          "href": "text/chapter-18.xhtml"
+        },
+        {
+          "title": "XIX: Attacked by the Fighting Trees",
+          "href": "text/chapter-19.xhtml"
+        },
+        {
+          "title": "XX: The Dainty China Country",
+          "href": "text/chapter-20.xhtml"
+        },
+        {
+          "title": "XXI: The Lion Becomes the King of Beasts",
+          "href": "text/chapter-21.xhtml"
+        },
+        {
+          "title": "XXII: The Country of the Quadlings",
+          "href": "text/chapter-22.xhtml"
+        },
+        {
+          "title": "XXIII: Glinda the Good Witch Grants Dorothy’s Wish",
+          "href": "text/chapter-23.xhtml"
+        },
+        {
+          "title": "XXIV: Home Again",
+          "href": "text/chapter-24.xhtml"
+        }
+      ]
+    },
+    {
+      "title": "IV: The Road Through the Forest",
+      "href": "text/chapter-4.xhtml"
+    },
+    {
+      "title": "V: The Rescue of the Tin Woodman",
+      "href": "text/chapter-5.xhtml"
+    },
+    {
+      "title": "Colophon",
+      "href": "text/colophon.xhtml"
+    },
+    {
+      "title": "VI: The Cowardly Lion",
+      "href": "text/chapter-6.xhtml"
+    },
+    {
+      "title": "Uncopyright",
+      "href": "text/uncopyright.xhtml"
+    },
+    {
+      "title": "VII: The Journey to the Great Oz",
+      "href": "text/chapter-7.xhtml"
+    },
+    {
+      "title": "VIII: The Deadly Poppy Field",
+      "href": "text/chapter-8.xhtml"
+    },
+    {
+      "title": "IX: The Queen of the Field Mice",
+      "href": "text/chapter-9.xhtml"
+    },
+    {
+      "title": "X: The Guardian of the Gate",
+      "href": "text/chapter-10.xhtml"
+    },
+    {
+      "title": "XI: The Wonderful City of Oz",
+      "href": "text/chapter-11.xhtml"
+    },
+    {
+      "title": "XII: The Search for the Wicked Witch",
+      "href": "text/chapter-12.xhtml"
+    },
+    {
+      "title": "XIII: The Rescue",
+      "href": "text/chapter-13.xhtml"
+    },
+    {
+      "title": "XIV: The Winged Monkeys",
+      "href": "text/chapter-14.xhtml"
+    },
+    {
+      "title": "XV: The Discovery of Oz, the Terrible",
+      "href": "text/chapter-15.xhtml"
+    },
+    {
+      "title": "XVI: The Magic Art of the Great Humbug",
+      "href": "text/chapter-16.xhtml"
+    },
+    {
+      "title": "XVII: How the Balloon Was Launched",
+      "href": "text/chapter-17.xhtml"
+    },
+    {
+      "title": "XVIII: Away to the South",
+      "href": "text/chapter-18.xhtml"
+    },
+    {
+      "title": "XIX: Attacked by the Fighting Trees",
+      "href": "text/chapter-19.xhtml"
+    },
+    {
+      "title": "XX: The Dainty China Country",
+      "href": "text/chapter-20.xhtml"
+    },
+    {
+      "title": "XXI: The Lion Becomes the King of Beasts",
+      "href": "text/chapter-21.xhtml"
+    },
+    {
+      "title": "XXII: The Country of the Quadlings",
+      "href": "text/chapter-22.xhtml"
+    },
+    {
+      "title": "XXIII: Glinda the Good Witch Grants Dorothy’s Wish",
+      "href": "text/chapter-23.xhtml"
+    },
+    {
+      "title": "XXIV: Home Again",
+      "href": "text/chapter-24.xhtml"
+    }
+  ],
+  "language": "en-US"
+}

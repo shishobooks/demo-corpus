@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "title": "Planet Comics #1",
+  "sort_title": "Planet Comics #1",
+  "description": "The first issue of Fiction House's science-fiction anthology, January 1940: rocket ships, alien worlds, and pulp heroes in the Golden Age of comics.\n\nCredit: Planet Comics, Fiction House, 1940, scans via archive.org, downscaled and repacked. United States public domain (copyright not renewed).",
+  "series": [
+    {
+      "name": "Planet Comics",
+      "sort_name": "Planet Comics",
+      "number": 1,
+      "unit": "volume",
+      "sort_order": 1
+    }
+  ],
+  "genres": [
+    "Comics",
+    "Science Fiction"
+  ],
+  "tags": [
+    "golden age",
+    "pulp"
+  ]
+}

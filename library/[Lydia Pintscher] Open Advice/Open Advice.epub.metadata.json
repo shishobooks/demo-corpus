@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "identifiers": [
+    {
+      "type": "uuid",
+      "value": "0b85e3b0-f3a5-4a94-844b-b75eca5f9c56"
+    }
+  ],
+  "name": "Open Advice",
+  "chapters": [
+    {
+      "title": "Part IIdeas and Innovation",
+      "href": "Open-Advice_split_002.html"
+    },
+    {
+      "title": "Part IIResearch",
+      "href": "Open-Advice_split_005.html"
+    },
+    {
+      "title": "Part IIIMentoring and Recruiting",
+      "href": "Open-Advice_split_008.html"
+    },
+    {
+      "title": "Part IVInfrastructure",
+      "href": "Open-Advice_split_012.html"
+    },
+    {
+      "title": "Part VCode",
+      "href": "Open-Advice_split_015.html"
+    },
+    {
+      "title": "Part VIQuality Assurance",
+      "href": "Open-Advice_split_019.html"
+    },
+    {
+      "title": "Part VIIDocumentation and Support",
+      "href": "Open-Advice_split_023.html"
+    },
+    {
+      "title": "Part VIIITranslation",
+      "href": "Open-Advice_split_028.html"
+    },
+    {
+      "title": "Part IXUsability",
+      "href": "Open-Advice_split_030.html"
+    },
+    {
+      "title": "Part XArtwork and Design",
+      "href": "Open-Advice_split_033.html"
+    },
+    {
+      "title": "Part XICommunity Management",
+      "href": "Open-Advice_split_036.html"
+    },
+    {
+      "title": "Part XIIPackaging",
+      "href": "Open-Advice_split_040.html"
+    },
+    {
+      "title": "Part XIIIPromotion",
+      "href": "Open-Advice_split_044.html"
+    },
+    {
+      "title": "Part XIVConferences and Sprints",
+      "href": "Open-Advice_split_048.html"
+    },
+    {
+      "title": "Part XVBusiness",
+      "href": "Open-Advice_split_053.html"
+    },
+    {
+      "title": "Part XVILegal and Policy",
+      "href": "Open-Advice_split_057.html"
+    }
+  ],
+  "language": "en"
+}

@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "url": "https://www.gutenberg.org/ebooks/24022",
+  "publisher": "Standard Ebooks",
+  "release_date": "2018-04-14",
+  "name": "A Christmas Carol",
+  "chapters": [
+    {
+      "title": "Titlepage",
+      "href": "text/titlepage.xhtml"
+    },
+    {
+      "title": "Stave I: Marley’s Ghost",
+      "href": "text/chapter-1.xhtml"
+    },
+    {
+      "title": "Imprint",
+      "href": "text/imprint.xhtml"
+    },
+    {
+      "title": "Stave II: The First of the Three Spirits",
+      "href": "text/chapter-2.xhtml"
+    },
+    {
+      "title": "Preface",
+      "href": "text/preface.xhtml"
+    },
+    {
+      "title": "Stave III: The Second of the Three Spirits",
+      "href": "text/chapter-3.xhtml"
+    },
+    {
+      "title": "A Christmas Carol",
+      "href": "text/halftitlepage.xhtml",
+      "children": [
+        {
+          "title": "Stave I: Marley’s Ghost",
+          "href": "text/chapter-1.xhtml"
+        },
+        {
+          "title": "Stave II: The First of the Three Spirits",
+          "href": "text/chapter-2.xhtml"
+        },
+        {
+          "title": "Stave III: The Second of the Three Spirits",
+          "href": "text/chapter-3.xhtml"
+        },
+        {
+          "title": "Stave IV: The Last of the Spirits",
+          "href": "text/chapter-4.xhtml"
+        },
+        {
+          "title": "Stave V: The End of It",
+          "href": "text/chapter-5.xhtml"
+        }
+      ]
+    },
+    {
+      "title": "Stave IV: The Last of the Spirits",
+      "href": "text/chapter-4.xhtml"
+    },
+    {
+      "title": "Stave V: The End of It",
+      "href": "text/chapter-5.xhtml"
+    },
+    {
+      "title": "Colophon",
+      "href": "text/colophon.xhtml"
+    },
+    {
+      "title": "Uncopyright",
+      "href": "text/uncopyright.xhtml"
+    }
+  ],
+  "language": "en-GB"
+}

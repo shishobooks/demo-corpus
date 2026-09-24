@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "title": "The Marvelous Land of Oz",
+  "sort_title": "Marvelous Land of Oz, The",
+  "description": "Four years after writing his immensely popular The Wonderful Wizard of Oz, L. Frank Baum returned to the Land of Oz in this second book of fourteen he wrote about the magical country. Like its predecessor, The Marvelous Land of Oz has delighted children through the years, and has been adapted into stage plays, films, and comics.\n\nA young boy named Tip lives in Gillikin Country in Oz with an old witch named Mombi. When Mombi threatens to turn Tip into a statue, he escapes with his friend Jack, a wooden man with a pumpkin for a head who has been brought to life through magic. He then journeys to the Emerald City, where he embarks upon an exciting adventure, meeting new quirky characters and returning favorites from the first book.\n\nCredit: text from the Standard Ebooks edition (CC0). Public domain.",
+  "authors": [
+    {
+      "name": "L. Frank Baum",
+      "sort_name": "Baum, L. Frank",
+      "sort_order": 1
+    }
+  ],
+  "series": [
+    {
+      "name": "Oz",
+      "sort_name": "Oz",
+      "number": 2,
+      "sort_order": 1
+    }
+  ],
+  "genres": [
+    "Children",
+    "Fantasy"
+  ],
+  "tags": [
+    "classic"
+  ]
+}

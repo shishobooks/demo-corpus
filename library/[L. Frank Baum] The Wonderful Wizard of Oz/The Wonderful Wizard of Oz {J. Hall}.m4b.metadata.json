@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "narrators": [
+    {
+      "name": "J. Hall",
+      "sort_name": "Hall, J.",
+      "sort_order": 1
+    }
+  ],
+  "publisher": "LibriVox",
+  "release_date": "2007-03-10",
+  "name": "The Wonderful Wizard of Oz",
+  "chapters": [
+    {
+      "title": "Introduction",
+      "start_timestamp_ms": 0
+    },
+    {
+      "title": "The Cyclone",
+      "start_timestamp_ms": 94118
+    },
+    {
+      "title": "The Council with the Munchkins",
+      "start_timestamp_ms": 478797
+    },
+    {
+      "title": "How Dorothy Saved the Scarecrow",
+      "start_timestamp_ms": 1181043
+    },
+    {
+      "title": "The Road Through the Forest",
+      "start_timestamp_ms": 1863165
+    },
+    {
+      "title": "The Rescue of the Tin Woodman",
+      "start_timestamp_ms": 2341413
+    },
+    {
+      "title": "The Cowardly Lion",
+      "start_timestamp_ms": 3021038
+    },
+    {
+      "title": "The Journey to the Great Oz",
+      "start_timestamp_ms": 3548347
+    },
+    {
+      "title": "The Deadly Poppy Field",
+      "start_timestamp_ms": 4156582
+    },
+    {
+      "title": "The Queen of the Field Mice",
+      "start_timestamp_ms": 4812385
+    },
+    {
+      "title": "The Guardian of the Gates",
+      "start_timestamp_ms": 5276633
+    },
+    {
+      "title": "The Emerald City of Oz",
+      "start_timestamp_ms": 5932880
+    },
+    {
+      "title": "The Search for the Wicked Witch",
+      "start_timestamp_ms": 7097977
+    },
+    {
+      "title": "The Rescue",
+      "start_timestamp_ms": 8320218
+    },
+    {
+      "title": "The Winged Monkeys",
+      "start_timestamp_ms": 8734465
+    },
+    {
+      "title": "The Discovery of Oz the Terrible",
+      "start_timestamp_ms": 9366703
+    },
+    {
+      "title": "The Magic Art of the Great Humbug",
+      "start_timestamp_ms": 10280758
+    },
+    {
+      "title": "How the Balloon Was Launched",
+      "start_timestamp_ms": 10621002
+    },
+    {
+      "title": "Away to the South",
+      "start_timestamp_ms": 11015242
+    },
+    {
+      "title": "Attacked by the Fighting Trees",
+      "start_timestamp_ms": 11421497
+    },
+    {
+      "title": "The Dainty China Country",
+      "start_timestamp_ms": 11776213
+    },
+    {
+      "title": "The Lion Becomes the King of Beasts",
+      "start_timestamp_ms": 12324262
+    },
+    {
+      "title": "The Country of the Quadlings",
+      "start_timestamp_ms": 12658497
+    },
+    {
+      "title": "Glinda The Good Witch Grants Dorothy's Wish",
+      "start_timestamp_ms": 13004747
+    },
+    {
+      "title": "Home Again",
+      "start_timestamp_ms": 13440995
+    }
+  ]
+}

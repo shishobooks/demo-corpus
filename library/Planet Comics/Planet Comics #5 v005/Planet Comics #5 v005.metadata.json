@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "title": "Planet Comics #5",
+  "sort_title": "Planet Comics #5",
+  "description": "Issue 5 of Fiction House's science-fiction anthology, May 1940, with sixty-eight pages of Golden Age interplanetary adventure.\n\nCredit: Planet Comics, Fiction House, 1940, scans via archive.org, downscaled and repacked. United States public domain (copyright not renewed).",
+  "series": [
+    {
+      "name": "Planet Comics",
+      "sort_name": "Planet Comics",
+      "number": 5,
+      "unit": "volume",
+      "sort_order": 1
+    }
+  ],
+  "genres": [
+    "Comics",
+    "Science Fiction"
+  ],
+  "tags": [
+    "golden age",
+    "pulp"
+  ]
+}

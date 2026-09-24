@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "title": "Made with Creative Commons",
+  "sort_title": "Made with Creative Commons",
+  "description": "Case studies of twenty-four creators, companies, and organizations that build sustainable businesses and projects on openly licensed work, from textbooks and music to hardware and museums.\n\nCredit: Made with Creative Commons by Paul Stacey and Sarah Hinchliff Pearson, Creative Commons, 2017. License: CC BY-SA 4.0.",
+  "authors": [
+    {
+      "name": "Paul Stacey",
+      "sort_name": "Stacey, Paul",
+      "sort_order": 1
+    },
+    {
+      "name": "Sarah Hinchliff Pearson",
+      "sort_name": "Pearson, Sarah Hinchliff",
+      "sort_order": 2
+    }
+  ],
+  "genres": [
+    "Business",
+    "Nonfiction"
+  ],
+  "tags": [
+    "open licensing"
+  ]
+}

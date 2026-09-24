@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "title": "A Christmas Carol",
+  "sort_title": "Christmas Carol, A",
+  "description": "Charles Dickens wrote A Christmas Carol in 1843 and the first edition, published on 19th December, was so successful that it sold out in just six days. The publishers had to produce two further editions between Christmas and the new year to meet the demand, and the novella has never been out of print.\n\nA Christmas Carol tells the story of a greedy money-lender, Ebenezer Scrooge, who is first visited by the ghost of his former business partner and then by three spirits—the Ghost of Christmas Past, the Ghost of Christmas Present and the Ghost of Christmas Yet to Come. They show Scrooge’s lack of compassion to him, compelling him to act more compassionately in the future and to honor Christmas in his heart.\n\nCredit: text from the Standard Ebooks edition (CC0). Public domain.",
+  "authors": [
+    {
+      "name": "Charles Dickens",
+      "sort_name": "Dickens, Charles",
+      "sort_order": 1
+    }
+  ],
+  "genres": [
+    "Fiction",
+    "Holiday"
+  ],
+  "tags": [
+    "classic",
+    "novella"
+  ]
+}
