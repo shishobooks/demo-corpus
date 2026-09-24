@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - master
+    # Documentation-only pushes never change the image, so skip the deploy.
+    paths-ignore:
+      - "*.md"
+
+permissions: {}
 
 jobs:
   dispatch:
@@ -14,4 +19,9 @@ jobs:
         env:
           # Fine-grained token with Contents read and write on shishobooks/shisho.
           GH_TOKEN: ${{ secrets.SHISHO_DISPATCH_TOKEN }}
-        run: gh api repos/shishobooks/shisho/dispatches -f event_type=demo-corpus-updated
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::SHISHO_DISPATCH_TOKEN is not set in this repository's secrets"
+            exit 1
+          fi
+          gh api repos/shishobooks/shisho/dispatches -f event_type=demo-corpus-updated

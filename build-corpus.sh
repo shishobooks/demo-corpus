@@ -196,6 +196,10 @@ build_peppercarrot() {
   local base="https://www.peppercarrot.com/0_sources/$slug/hi-res"
   local staging="$DL/peppercarrot/ep$ep-staging"
   local page
+  if [ -e "$LIB/Pepper and Carrot/Episode $ep - $title/Pepper and Carrot - Episode $ep - $title.cbz" ]; then
+    log "exists   Pepper and Carrot episode $ep"
+    return
+  fi
   rm -rf "$staging"
   mkdir -p "$staging"
   for page in $(seq -f '%02g' 0 "$last"); do
@@ -226,6 +230,10 @@ build_planet() {
   local archive="$DL/planet-comics/$remote"
   local extracted="$DL/planet-comics/issue-$padded-extracted"
   local staging="$DL/planet-comics/issue-$padded-staging"
+  if [ -e "$LIB/Planet Comics/Planet Comics $padded/Planet Comics $padded.cbz" ]; then
+    log "exists   Planet Comics $padded"
+    return
+  fi
   fetch "$PLANET_ITEM/$remote" "$archive"
   rm -rf "$extracted" "$staging"
   mkdir -p "$extracted" "$staging"

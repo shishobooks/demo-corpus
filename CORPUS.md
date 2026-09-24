@@ -77,7 +77,7 @@ Names and marks of the projects credited below are used only to identify the wor
 
 ### Pepper&Carrot, episodes 24 and 25
 
-- Files: CBZ (episode 24, The Unity Tree), CBZ (episode 25, There are no Shortcuts)
+- Files: CBZ (episode 24, The Unity Tree), CBZ (episode 25, There are no Shortcuts). Each episode is its own Book in the Pepper&Carrot Series.
 - Source: <https://www.peppercarrot.com/> (English hi-res page images from the episode source folders)
 - License: CC BY 4.0, <https://creativecommons.org/licenses/by/4.0/>
 - Credit: Pepper&Carrot by David Revoy, <https://www.peppercarrot.com>, licensed CC BY 4.0.
@@ -85,7 +85,7 @@ Names and marks of the projects credited below are used only to identify the wor
 
 ### Planet Comics, issues 1, 3, and 5
 
-- Files: CBZ x3
+- Files: CBZ x3. Each issue is its own Book in the Planet Comics Series.
 - Source: scans from <https://archive.org/details/planet-comics-011-gm-removed-cbpop>
 - Basis: published by Fiction House in 1940 in the United States; copyright was not renewed, so the issues are in the United States public domain.
 - Credit: Planet Comics, Fiction House, 1940. Scans via archive.org.
@@ -93,7 +93,7 @@ Names and marks of the projects credited below are used only to identify the wor
 
 ## Prepared database
 
-`config/shisho.db` was authored with Shisho itself against `library/` mounted at `/media`. It contains one library at `/media`, a throwaway admin account, and the shared `demo` visitor account. Because this database is public, neither password protects anything:
+`config/shisho.db` was authored with Shisho itself against `library/` mounted at `/media`. It contains one library at `/media` with 13 Books and 16 Files (the spec's ten works, with comic issues and episodes as separate Books in their Series), a throwaway admin account, and the shared `demo` visitor account. Because this database is public, neither password protects anything:
 
 | User | Role | Password |
 |------|------|----------|
