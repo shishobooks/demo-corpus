@@ -89,7 +89,7 @@ Names and marks of the projects credited below are used only to identify the wor
 - Source: scans from <https://archive.org/details/planet-comics-011-gm-removed-cbpop>
 - Basis: published by Fiction House in 1940 in the United States; copyright was not renewed, so the issues are in the United States public domain.
 - Credit: Planet Comics, Fiction House, 1940. Scans via archive.org.
-- Modifications: the scanned pages were downscaled to 1600 px on the longest edge, saved as JPEG at quality 80, and repacked as CBZ files with a generated `ComicInfo.xml`.
+- Modifications: the scanned pages were downscaled to 1600 px on the longest edge, saved as JPEG at quality 70, and repacked as CBZ files with a generated `ComicInfo.xml`.
 
 ## Prepared database
 
