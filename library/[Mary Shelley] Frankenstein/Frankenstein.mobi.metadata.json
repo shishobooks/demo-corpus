@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "publisher": "Standard Ebooks",
+  "release_date": "2015-05-12",
+  "name": "Frankenstein",
+  "chapters": [
+    {
+      "title": "Titlepage",
+      "href": "filepos:0000000239"
+    },
+    {
+      "title": "Imprint",
+      "href": "filepos:0000000372"
+    },
+    {
+      "title": "Introduction",
+      "href": "filepos:0000002524"
+    },
+    {
+      "title": "Preface",
+      "href": "filepos:0000015919"
+    },
+    {
+      "title": "Dedication",
+      "href": "filepos:0000019699"
+    },
+    {
+      "title": "Epigraph",
+      "href": "filepos:0000020275"
+    },
+    {
+      "title": "Frankenstein",
+      "href": "filepos:0000020808"
+    },
+    {
+      "title": "Letter I",
+      "href": "filepos:0000021355"
+    },
+    {
+      "title": "Letter II",
+      "href": "filepos:0000028952"
+    },
+    {
+      "title": "Letter III",
+      "href": "filepos:0000037020"
+    },
+    {
+      "title": "Letter IV",
+      "href": "filepos:0000039386"
+    },
+    {
+      "title": "Chapter I",
+      "href": "filepos:0000056204"
+    },
+    {
+      "title": "Chapter II",
+      "href": "filepos:0000067002"
+    },
+    {
+      "title": "Chapter III",
+      "href": "filepos:0000080491"
+    },
+    {
+      "title": "Chapter IV",
+      "href": "filepos:0000096796"
+    },
+    {
+      "title": "Chapter V",
+      "href": "filepos:0000111917"
+    },
+    {
+      "title": "Chapter VI",
+      "href": "filepos:0000126595"
+    },
+    {
+      "title": "Chapter VII",
+      "href": "filepos:0000143242"
+    },
+    {
+      "title": "Chapter VIII",
+      "href": "filepos:0000165208"
+    },
+    {
+      "title": "Chapter IX",
+      "href": "filepos:0000183915"
+    },
+    {
+      "title": "Chapter X",
+      "href": "filepos:0000197179"
+    },
+    {
+      "title": "Chapter XI",
+      "href": "filepos:0000211592"
+    },
+    {
+      "title": "Chapter XII",
+      "href": "filepos:0000228480"
+    },
+    {
+      "title": "Chapter XIII",
+      "href": "filepos:0000241398"
+    },
+    {
+      "title": "Chapter XIV",
+      "href": "filepos:0000253982"
+    },
+    {
+      "title": "Chapter XV",
+      "href": "filepos:0000265348"
+    },
+    {
+      "title": "Chapter XVI",
+      "href": "filepos:0000284212"
+    },
+    {
+      "title": "Chapter XVII",
+      "href": "filepos:0000303330"
+    },
+    {
+      "title": "Chapter XVIII",
+      "href": "filepos:0000314582"
+    },
+    {
+      "title": "Chapter XIX",
+      "href": "filepos:0000332407"
+    },
+    {
+      "title": "Chapter XX",
+      "href": "filepos:0000348209"
+    },
+    {
+      "title": "Chapter XXI",
+      "href": "filepos:0000368776"
+    },
+    {
+      "title": "Chapter XXII",
+      "href": "filepos:0000391187"
+    },
+    {
+      "title": "Chapter XXIII",
+      "href": "filepos:0000411972"
+    },
+    {
+      "title": "Chapter XXIV",
+      "href": "filepos:0000427278"
+    },
+    {
+      "title": "Walton, in Continuation",
+      "href": "filepos:0000444743"
+    },
+    {
+      "title": "Endnotes",
+      "href": "filepos:0000476265"
+    },
+    {
+      "title": "Colophon",
+      "href": "filepos:0000476846"
+    },
+    {
+      "title": "Uncopyright",
+      "href": "filepos:0000479774"
+    }
+  ],
+  "language": "en"
+}

@@ -9,7 +9,8 @@
 # only the starting point: one directory per Book.
 #
 # Requirements: bash 4+, curl, ffmpeg with libfdk_aac, ImageMagick 7 (magick),
-# zip, and bsdtar built with RAR support (macOS and most Linux distributions).
+# calibre (ebook-convert), zip, and bsdtar built with RAR support (macOS and
+# most Linux distributions).
 #
 # Every source and its license basis is recorded in CORPUS.md. Keep the two in
 # sync when adding or replacing a work.
@@ -154,6 +155,34 @@ place "$DL/standardebooks/l-frank-baum_the-wonderful-wizard-of-oz.epub" "The Won
 place "$DL/standardebooks/l-frank-baum_the-marvelous-land-of-oz.epub" "The Marvelous Land of Oz" "The Marvelous Land of Oz.epub"
 place "$DL/standardebooks/oscar-wilde_the-importance-of-being-earnest.epub" "The Importance of Being Earnest" "The Importance of Being Earnest.epub"
 place "$DL/standardebooks/charles-dickens_a-christmas-carol.epub" "A Christmas Carol" "A Christmas Carol.epub"
+
+# ---------------------------------------------------------------------------
+# AZW3 and MOBI from Standard Ebooks editions
+# ---------------------------------------------------------------------------
+
+# Alice's Adventures in Wonderland, illustrated by John Tenniel. Standard
+# Ebooks publishes an AZW3 of its edition, used unmodified.
+fetch "$SE/lewis-carroll/alices-adventures-in-wonderland/john-tenniel/downloads/lewis-carroll_alices-adventures-in-wonderland_john-tenniel.azw3?source=download" \
+  "$DL/standardebooks/lewis-carroll_alices-adventures-in-wonderland_john-tenniel.azw3"
+place "$DL/standardebooks/lewis-carroll_alices-adventures-in-wonderland_john-tenniel.azw3" "Alice's Adventures in Wonderland" "Alice's Adventures in Wonderland.azw3"
+
+# Frankenstein. Standard Ebooks publishes no MOBI, so its EPUB is
+# converted to a plain Mobipocket (MOBI6) file, the format every Kindle reads.
+# EBOOK_CONVERT defaults to ebook-convert on PATH, then the macOS calibre.app
+# binary, which calibre does not put on PATH.
+EBOOK_CONVERT=${EBOOK_CONVERT:-$(command -v ebook-convert || echo /Applications/calibre.app/Contents/MacOS/ebook-convert)}
+fetch "$SE/mary-shelley/frankenstein/downloads/mary-shelley_frankenstein.epub?source=download" \
+  "$DL/standardebooks/mary-shelley_frankenstein.epub"
+FRANKENSTEIN_OUT="$LIB/Frankenstein/Frankenstein.mobi"
+if [ -e "$FRANKENSTEIN_OUT" ]; then
+  log "exists   $FRANKENSTEIN_OUT"
+else
+  mkdir -p "$(dirname "$FRANKENSTEIN_OUT")"
+  "$EBOOK_CONVERT" "$DL/standardebooks/mary-shelley_frankenstein.epub" "$FRANKENSTEIN_OUT.part.mobi" \
+    --mobi-file-type old --output-profile kindle >/dev/null
+  mv "$FRANKENSTEIN_OUT.part.mobi" "$FRANKENSTEIN_OUT"
+  log "converted $FRANKENSTEIN_OUT"
+fi
 
 # ---------------------------------------------------------------------------
 # M4B audiobooks from LibriVox

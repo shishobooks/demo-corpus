@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "publisher": "Standard Ebooks",
+  "release_date": "2014-05-25",
+  "name": "Alice’s Adventures in Wonderland",
+  "chapters": [
+    {
+      "title": "Titlepage",
+      "href": "kindle:pos:fid:0000:off:0000000000"
+    },
+    {
+      "title": "Imprint",
+      "href": "kindle:pos:fid:0001:off:0000000000"
+    },
+    {
+      "title": "All in the Golden Afternoon",
+      "href": "kindle:pos:fid:0002:off:0000000000"
+    },
+    {
+      "title": "Frontispiece",
+      "href": "kindle:pos:fid:0003:off:0000000000"
+    },
+    {
+      "title": "Alice’s Adventures in Wonderland",
+      "href": "kindle:pos:fid:0005:off:0000000000",
+      "children": [
+        {
+          "title": "I: Down the Rabbit-Hole",
+          "href": "kindle:pos:fid:0006:off:0000000000"
+        },
+        {
+          "title": "II: The Pool of Tears",
+          "href": "kindle:pos:fid:0008:off:0000000000"
+        },
+        {
+          "title": "III: A Caucus-Race and a Long Tale",
+          "href": "kindle:pos:fid:000A:off:0000000000"
+        },
+        {
+          "title": "IV: The Rabbit Sends in a Little Bill",
+          "href": "kindle:pos:fid:000D:off:0000000000"
+        },
+        {
+          "title": "V: Advice from a Caterpillar",
+          "href": "kindle:pos:fid:000G:off:0000000000"
+        },
+        {
+          "title": "VI: Pig and Pepper",
+          "href": "kindle:pos:fid:000J:off:0000000000"
+        },
+        {
+          "title": "VII: A Mad Tea-Party",
+          "href": "kindle:pos:fid:000M:off:0000000000"
+        },
+        {
+          "title": "VIII: The Queen’s Croquet-Ground",
+          "href": "kindle:pos:fid:000P:off:0000000000"
+        },
+        {
+          "title": "IX: The Mock Turtle’s Story",
+          "href": "kindle:pos:fid:000S:off:0000000000"
+        },
+        {
+          "title": "X: The Lobster Quadrille",
+          "href": "kindle:pos:fid:000V:off:0000000000"
+        },
+        {
+          "title": "XI: Who Stole the Tarts?",
+          "href": "kindle:pos:fid:0012:off:0000000000"
+        },
+        {
+          "title": "XII: Alice’s Evidence",
+          "href": "kindle:pos:fid:0014:off:0000000000"
+        }
+      ]
+    },
+    {
+      "title": "List of Illustrations",
+      "href": "kindle:pos:fid:0017:off:0000000000"
+    },
+    {
+      "title": "Colophon",
+      "href": "kindle:pos:fid:001A:off:0000000000"
+    },
+    {
+      "title": "Uncopyright",
+      "href": "kindle:pos:fid:001B:off:0000000000"
+    }
+  ],
+  "language": "en"
+}

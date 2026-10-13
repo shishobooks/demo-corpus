@@ -67,6 +67,22 @@ Names and marks of the projects credited below are used only to identify the wor
 - Credit: Text from the Standard Ebooks edition (CC0).
 - Modifications: none. File renamed.
 
+### Alice's Adventures in Wonderland
+
+- Files: AZW3
+- Source: Standard Ebooks, edition illustrated by John Tenniel, <https://standardebooks.org/ebooks/lewis-carroll/alices-adventures-in-wonderland/john-tenniel>
+- Basis: Lewis Carroll died in 1898 and illustrator John Tenniel in 1914. Standard Ebooks dedicates its edition to the public domain under CC0.
+- Credit: Text and illustrations from the Standard Ebooks edition (CC0).
+- Modifications: none. File renamed.
+
+### Frankenstein
+
+- Files: MOBI
+- Source: Standard Ebooks, <https://standardebooks.org/ebooks/mary-shelley/frankenstein>
+- Basis: Mary Shelley died in 1851. Standard Ebooks dedicates its edition to the public domain under CC0.
+- Credit: Text from the Standard Ebooks edition (CC0).
+- Modifications: Standard Ebooks publishes no MOBI, so its EPUB was converted to a Mobipocket (MOBI6) file with Calibre's `ebook-convert`.
+
 ### The Velveteen Rabbit
 
 - Files: M4B
@@ -93,7 +109,7 @@ Names and marks of the projects credited below are used only to identify the wor
 
 ## Prepared database
 
-`config/shisho.db` was authored with Shisho itself against `library/` mounted at `/media`. It contains one library at `/media` with 13 Books and 16 Files (the spec's ten works, with comic issues and episodes as separate Books in their Series), a throwaway admin account, and the shared `demo` visitor account. Because this database is public, neither password protects anything:
+`config/shisho.db` was authored with Shisho itself against `library/` mounted at `/media`. It contains one library at `/media` with 15 Books and 18 Files (the spec's ten works plus one AZW3 and one MOBI work, with comic issues and episodes as separate Books in their Series), a throwaway admin account, and the shared `demo` visitor account. Because this database is public, neither password protects anything:
 
 | User | Role | Password |
 |------|------|----------|

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "title": "Frankenstein",
+  "sort_title": "Frankenstein",
+  "subtitle": "Or, The Modern Prometheus",
+  "description": "Mary Shelley (then Godwin) and Percy Bysshe Shelley were visiting their friend Lord Byron in Geneva one rainy summer. With the weather against them, they decided to spend their time writing ghost stories for each other. Frankenstein is Mary Shelley’s submission to their contest, later published anonymously in 1818.\n\nVictor Frankenstein, a strange but brilliant scientist, discovers a method of imparting life to inanimate matter. The Monster is thus born: a hideous, 8-foot-tall creature of muscle, speed, and intellect. Frankenstein’s rejection of his appalling creation sends it into a spiral of despair, and Frankenstein’s life is never the same.\n\nConsidered by many to be the first science fiction novel, Frankenstein is a powerful narrative that explores complex themes of belonging, morality, and the consequences of the power over life and death. This edition is based on Shelley’s revised 1831 edition.\n\nCredit: text from the Standard Ebooks edition (CC0), converted from EPUB to MOBI with Calibre. Public domain.",
+  "authors": [
+    {
+      "name": "Mary Shelley",
+      "sort_name": "Shelley, Mary",
+      "sort_order": 1
+    }
+  ],
+  "genres": [
+    "Horror",
+    "Science Fiction"
+  ],
+  "tags": [
+    "classic"
+  ]
+}
