@@ -53,27 +53,30 @@ Names and marks of the projects credited below are used only to identify the wor
 
 ### The Importance of Being Earnest
 
-- Files: EPUB
-- Source: Standard Ebooks, <https://standardebooks.org/ebooks/oscar-wilde/the-importance-of-being-earnest>
-- Basis: Oscar Wilde died in 1900. Standard Ebooks dedicates its edition to the public domain under CC0.
-- Credit: Text from the Standard Ebooks edition (CC0).
-- Modifications: none. File renamed.
+- Files: EPUB, M4B
+- EPUB source: Standard Ebooks, <https://standardebooks.org/ebooks/oscar-wilde/the-importance-of-being-earnest>
+- M4B source: LibriVox, 2008 dramatic reading (version 2), <https://librivox.org/the-importance-of-being-earnest-version-2-by-oscar-wilde/> (file `ImportanceOfBeingEarnestV2_librivox.m4b` from <https://archive.org/details/earnest_0805_librivox>)
+- Basis: Oscar Wilde died in 1900. Standard Ebooks dedicates its edition to the public domain under CC0. LibriVox dedicates its recordings to the public domain.
+- Credit: Text from the Standard Ebooks edition (CC0). Audiobook from LibriVox, read by Hans-Stefan Ducharme, Simon Ferland, Toby Paradis, Sarah A. Farnham, Nyssa Gatcombe, Rebecca Bailey, and Eileen Nadeau, public domain.
+- Modifications: the EPUB is unmodified. The audiobook was re-encoded from 64 kbps AAC to 24 kbps HE-AAC mono with ffmpeg to reduce its size; chapters were carried over, the original tags were replaced with the title, author, and readers, and a downscaled copy of the Standard Ebooks cover was added as its cover art, since the recording has none.
 
 ### A Christmas Carol
 
-- Files: EPUB
-- Source: Standard Ebooks, <https://standardebooks.org/ebooks/charles-dickens/a-christmas-carol>
-- Basis: Charles Dickens died in 1870. Standard Ebooks dedicates its edition to the public domain under CC0.
-- Credit: Text from the Standard Ebooks edition (CC0).
-- Modifications: none. File renamed.
+- Files: EPUB, M4B
+- EPUB source: Standard Ebooks, <https://standardebooks.org/ebooks/charles-dickens/a-christmas-carol>
+- M4B source: LibriVox, 2010 solo recording (version 3) read by Jeff Robinson, <https://librivox.org/a-christmas-carol-by-charles-dickens-3/> (file `ChristmasCarolV3_librivox.m4b` from <https://archive.org/details/christmascarol_1012_librivox>)
+- Basis: Charles Dickens died in 1870. Standard Ebooks dedicates its edition to the public domain under CC0. LibriVox dedicates its recordings to the public domain.
+- Credit: Text from the Standard Ebooks edition (CC0). Audiobook from LibriVox, read by Jeff Robinson, public domain.
+- Modifications: the EPUB is unmodified. The audiobook was re-encoded from 64 kbps AAC to 24 kbps HE-AAC mono with ffmpeg to reduce its size; chapters were carried over, the original tags were replaced with the title, author, and readers, and a downscaled copy of the Standard Ebooks cover was added as its cover art, since the recording has none.
 
 ### Alice's Adventures in Wonderland
 
-- Files: AZW3
-- Source: Standard Ebooks, edition illustrated by John Tenniel, <https://standardebooks.org/ebooks/lewis-carroll/alices-adventures-in-wonderland/john-tenniel>
-- Basis: Lewis Carroll died in 1898 and illustrator John Tenniel in 1914. Standard Ebooks dedicates its edition to the public domain under CC0.
-- Credit: Text and illustrations from the Standard Ebooks edition (CC0).
-- Modifications: none. File renamed.
+- Files: AZW3, M4B
+- AZW3 source: Standard Ebooks, edition illustrated by John Tenniel, <https://standardebooks.org/ebooks/lewis-carroll/alices-adventures-in-wonderland/john-tenniel>
+- M4B source: LibriVox, 2010 solo recording (version 5) read by Eric Leach, <https://librivox.org/alices-adventures-in-wonderland-by-lewis-carroll-5/> (file `AlicesAdventuresInWonderlandV5_librivox.m4b` from <https://archive.org/details/alices_adventures_1005_librivox>)
+- Basis: Lewis Carroll died in 1898 and illustrator John Tenniel in 1914. Standard Ebooks dedicates its edition to the public domain under CC0. LibriVox dedicates its recordings to the public domain.
+- Credit: Text and illustrations from the Standard Ebooks edition (CC0). Audiobook from LibriVox, read by Eric Leach, public domain.
+- Modifications: the AZW3 is unmodified. The audiobook was re-encoded from 64 kbps AAC to 24 kbps HE-AAC mono with ffmpeg to reduce its size; chapters were carried over, the original tags were replaced with the title, author, and readers, and a downscaled copy of the Standard Ebooks cover was added as its cover art, since the recording has none.
 
 ### Frankenstein
 
@@ -109,7 +112,7 @@ Names and marks of the projects credited below are used only to identify the wor
 
 ## Prepared database
 
-`config/shisho.db` was authored with Shisho itself against `library/` mounted at `/media`. It contains one library at `/media` with 15 Books and 18 Files (the spec's ten works plus one AZW3 and one MOBI work, with comic issues and episodes as separate Books in their Series), a throwaway admin account, and the shared `demo` visitor account. Because this database is public, neither password protects anything:
+`config/shisho.db` was authored with Shisho itself against `library/` mounted at `/media`. It contains one library at `/media` with 15 Books and 21 Files (the spec's ten works plus one AZW3 and one MOBI work, and three more LibriVox audiobooks of works already in it, with comic issues and episodes as separate Books in their Series), a throwaway admin account, and the shared `demo` visitor account. Because this database is public, neither password protects anything:
 
 | User | Role | Password |
 |------|------|----------|

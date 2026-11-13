@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "narrators": [
+    {
+      "name": "Hans-Stefan Ducharme",
+      "sort_name": "Ducharme, Hans-Stefan",
+      "sort_order": 1
+    },
+    {
+      "name": "Simon Ferland",
+      "sort_name": "Ferland, Simon",
+      "sort_order": 2
+    },
+    {
+      "name": "Toby Paradis",
+      "sort_name": "Paradis, Toby",
+      "sort_order": 3
+    },
+    {
+      "name": "Sarah A. Farnham",
+      "sort_name": "Farnham, Sarah A.",
+      "sort_order": 4
+    },
+    {
+      "name": "Nyssa Gatcombe",
+      "sort_name": "Gatcombe, Nyssa",
+      "sort_order": 5
+    },
+    {
+      "name": "Rebecca Bailey",
+      "sort_name": "Bailey, Rebecca",
+      "sort_order": 6
+    },
+    {
+      "name": "Eileen Nadeau",
+      "sort_name": "Nadeau, Eileen",
+      "sort_order": 7
+    }
+  ],
+  "name": "The Importance of Being Earnest"
+}

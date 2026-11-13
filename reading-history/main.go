@@ -272,6 +272,18 @@ func (g *generator) drawSessions(r read, f file) []session {
 			sessions = append(sessions, session{start: start.Truncate(time.Second), end: start.Add(length).Truncate(time.Second)})
 		}
 	}
+	// A finished listen ends when the audio does, at about 1.1x, which can
+	// be before the last day the plan allows.
+	if f.seconds > 0 && r.outcome == finished {
+		listened := 0.0
+		for i, s := range sessions {
+			listened += s.end.Sub(s.start).Seconds() * 1.1
+			if listened >= f.seconds {
+				sessions = sessions[:i+1]
+				break
+			}
+		}
+	}
 	return sessions
 }
 
@@ -363,6 +375,11 @@ func (g *generator) writeRead(ctx context.Context, r read, f file, sessions []se
 	var created, updated time.Time
 	if len(sessions) > 0 {
 		created, updated = sessions[0].start, sessions[len(sessions)-1].end
+		if r.outcome == finished {
+			// Finished on the day of the last Session.
+			last := sessions[len(sessions)-1].start
+			end = time.Date(last.Year(), last.Month(), last.Day(), 0, 0, 0, 0, time.UTC)
+		}
 	} else {
 		// Logged by hand on the evening it was finished.
 		created = end.Add(21*time.Hour + 40*time.Minute)
