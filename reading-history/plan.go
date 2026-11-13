@@ -43,12 +43,13 @@ const (
 	underway  = "underway"
 )
 
+// Open Advice is left unread on purpose, so the library shows a Book with
+// no Reading Status.
 var plan = []read{
 	// Over a year ago: a read logged by hand, then the first ones tracked in
 	// Shisho.
 	{title: "A Christmas Carol", fileType: "epub", from: 412, to: 405, outcome: finished, reach: 1, rating: 18, logged: true},
 	{title: "Planet Comics #1", fileType: "cbz", from: 398, to: 398, outcome: finished, reach: 1, rating: 12, pattern: sitting},
-	{title: "Open Advice", fileType: "epub", from: 381, to: 346, outcome: finished, reach: 1, rating: 14, pattern: evenings},
 	{title: "The Importance of Being Earnest", fileType: "epub", from: 341, to: 336, outcome: finished, reach: 1, rating: 18, pattern: evenings},
 
 	// The past year.
