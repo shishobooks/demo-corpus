@@ -320,10 +320,10 @@ func (g *generator) windows(r read, f file, weekend, must bool) []window {
 		}
 	case textbook:
 		switch {
-		case weekend && (must || g.chance(0.6)):
-			ws = append(ws, window{at: 10 * h, spread: 45 * m, min: 35 * m, max: 80 * m})
-		case !weekend && (must || g.chance(0.3)):
-			ws = append(ws, window{at: 19 * h, spread: 20 * m, min: 20 * m, max: 45 * m})
+		case weekend && (must || g.chance(0.5)):
+			ws = append(ws, window{at: 10 * h, spread: 45 * m, min: 30 * m, max: 60 * m})
+		case !weekend && (must || g.chance(0.22)):
+			ws = append(ws, window{at: 19 * h, spread: 20 * m, min: 20 * m, max: 40 * m})
 		}
 	case commute:
 		switch {
@@ -463,21 +463,31 @@ func (g *generator) writeRead(ctx context.Context, r read, f file, sessions []se
 }
 
 // fillProgress sets how far each Session got. Reading moves in proportion
-// to time spent, give or take; listening moves with the audio at a speed of
-// 1.1x, so a Session's progress matches its length.
+// to time spent, give or take. A listen still underway moves with the audio
+// at a speed of 1.1x, so a Session's progress matches its length, and a
+// finished one spreads the audio over its Sessions.
 func (g *generator) fillProgress(r read, f file, sessions []session) {
+	if f.seconds > 0 && r.outcome == finished {
+		// A finished listen spreads the whole book over the time spent.
+		total := 0.0
+		for _, s := range sessions {
+			total += s.end.Sub(s.start).Seconds()
+		}
+		listened := 0.0
+		for i, s := range sessions {
+			sessions[i].from = listened / total
+			listened += s.end.Sub(s.start).Seconds()
+			sessions[i].to = listened / total
+		}
+		return
+	}
 	if f.seconds > 0 {
 		done := 0.0
 		for i := range sessions {
 			listened := sessions[i].end.Sub(sessions[i].start).Seconds() * 1.1
 			sessions[i].from = done
 			done = math.Min(done+listened/f.seconds, 1)
-			if r.outcome != finished {
-				done = math.Min(done, 0.95)
-			}
-			if r.outcome == finished && i == len(sessions)-1 {
-				done = 1
-			}
+			done = math.Min(done, 0.95)
 			sessions[i].to = done
 		}
 		return
