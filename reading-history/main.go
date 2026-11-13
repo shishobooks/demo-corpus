@@ -1,7 +1,8 @@
 // Command reading-history writes the demo user's sample reading into the
 // prepared database: a year of Read-throughs with Reading Sessions, Ratings,
 // and the Reading Positions and position log the web reader would have left,
-// with a few Books still underway. plan.go says what was read and when.
+// with a few Books still underway. It also dates each Book's arrival in the
+// library ahead of the reading. plan.go says what was read and added when.
 //
 // It replaces whatever reading the demo user has, and the same latest day
 // writes the same history, so rerun it after the library changes:
@@ -170,6 +171,10 @@ func (g *generator) run(ctx context.Context, dbPath, username string) error {
 		}
 	}
 
+	if err := g.dateLibrary(ctx); err != nil {
+		return err
+	}
+
 	if err := tx.Commit(); err != nil {
 		return err
 	}
@@ -178,6 +183,45 @@ func (g *generator) run(ctx context.Context, dbPath, username string) error {
 	}
 	log.Printf("wrote %d Read-throughs, %d Reading Sessions, %d position updates, and %d Ratings for %s, ending %s",
 		g.readThroughs, g.sessions, g.updates, len(ratings), username, g.day0.Format(time.DateOnly))
+	return nil
+}
+
+// dateLibrary dates each Book, and its Files, to when it was added to the
+// library in the plan, an evening before anything in it was read.
+func (g *generator) dateLibrary(ctx context.Context) error {
+	rows, err := g.tx.QueryContext(ctx, `SELECT id, title FROM books`)
+	if err != nil {
+		return err
+	}
+	books := map[int]string{}
+	for rows.Next() {
+		var id int
+		var title string
+		if err := rows.Scan(&id, &title); err != nil {
+			rows.Close()
+			return err
+		}
+		books[id] = title
+	}
+	rows.Close()
+	if err := rows.Err(); err != nil {
+		return err
+	}
+	for _, id := range slices.Sorted(maps.Keys(books)) {
+		days, ok := added[books[id]]
+		if !ok {
+			days = firstImport
+		}
+		at := stamp(g.day(days).Add(19*time.Hour + time.Duration(id)*time.Minute))
+		for _, q := range []string{
+			`UPDATE books SET created_at = ? WHERE id = ?`,
+			`UPDATE files SET created_at = ? WHERE book_id = ?`,
+		} {
+			if _, err := g.tx.ExecContext(ctx, q, at, id); err != nil {
+				return fmt.Errorf("dating book %d: %w", id, err)
+			}
+		}
+	}
 	return nil
 }
 

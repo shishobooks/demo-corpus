@@ -70,3 +70,18 @@ var plan = []read{
 	{title: "The Marvelous Land of Oz", fileType: "epub", from: 31, to: 1, outcome: underway, reach: 0.58, pattern: evenings},
 	{title: "The Wonderful Wizard of Oz", fileType: "m4b", from: 2, to: 0, outcome: underway, pattern: commute},
 }
+
+// added is how many days before the latest day each Book was added to
+// the library, so Library Growth shows the library arriving ahead of the
+// reading in it. A Book not listed came with the first import.
+const firstImport = 440
+
+var added = map[string]int{
+	"Frankenstein":                     330,
+	"Planet Comics #3":                 300,
+	"Planet Comics #5":                 300,
+	"Made with Creative Commons":       285,
+	"Alice’s Adventures in Wonderland": 190,
+	"The Unity Tree":                   120,
+	"There are no Shortcuts":           120,
+}
