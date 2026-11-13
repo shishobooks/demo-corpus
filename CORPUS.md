@@ -116,4 +116,6 @@ Names and marks of the projects credited below are used only to identify the wor
 | `admin` | Admin | `demo-admin-throwaway` |
 | `demo` | Viewer | `shishodemo` |
 
+The `demo` account's reading history (Read-throughs, Reading Sessions, Ratings, and reading positions, including a few Books still underway) is sample data written by `reading-history/`, not anyone's real reading. `reading-history/plan.go` lists what was read and when; rerun the generator with `cd reading-history && go run .` after the library changes. In Demo Mode, Shisho moves every reading date at startup and each day after so the latest falls on yesterday, so the dates committed here don't need to be current.
+
 The Public Demo runs in Demo Mode, where admins have no bypass and every persistent change is rejected. See `demo/README.md` in `shishobooks/shisho` for the authoring loop.
