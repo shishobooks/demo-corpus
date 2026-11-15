@@ -164,8 +164,8 @@ func (g *generator) run(ctx context.Context, dbPath, username string) error {
 	}
 	for _, bookID := range slices.Sorted(maps.Keys(ratings)) {
 		rt := ratings[bookID]
-		_, err := tx.ExecContext(ctx, `INSERT INTO user_books (user_id, book_id, created_at, updated_at, rating) VALUES (?, ?, ?, ?, ?)`,
-			g.userID, bookID, stamp(rt.at), stamp(rt.at), rt.units)
+		_, err := tx.ExecContext(ctx, `INSERT INTO user_books (user_id, book_id, created_at, updated_at, rating, rating_updated_at) VALUES (?, ?, ?, ?, ?, ?)`,
+			g.userID, bookID, stamp(rt.at), stamp(rt.at), rt.units, stamp(rt.at))
 		if err != nil {
 			return fmt.Errorf("rating book %d: %w", bookID, err)
 		}
