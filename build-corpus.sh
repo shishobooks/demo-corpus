@@ -9,7 +9,7 @@
 # only the starting point: one directory per Book.
 #
 # Requirements: bash 4+, curl, ffmpeg with libfdk_aac, ImageMagick 7 (magick),
-# calibre (ebook-convert), zip, and bsdtar built with RAR support (macOS and
+# calibre (ebook-convert, ebook-meta), zip, and bsdtar built with RAR support (macOS and
 # most Linux distributions).
 #
 # Every source and its license basis is recorded in CORPUS.md. Keep the two in
@@ -212,6 +212,51 @@ else
   mv "$OZ_OUT.part.m4b" "$OZ_OUT"
   log "encoded  $OZ_OUT"
 fi
+
+# LibriVox recordings of works already in the corpus, each a second File of
+# its Book. Re-encoded from 64 kbps AAC to 24 kbps HE-AAC mono like Oz. The
+# original tags are dropped (a stray genre or description would land on the
+# curated Book) for the title, author, and readers, which Shisho reads as
+# narrators from the composer tag. The recordings have no art, so each gets
+# its Book's Standard Ebooks cover, taken from the ebook and downscaled.
+EBOOK_META=${EBOOK_META:-$(command -v ebook-meta || echo /Applications/calibre.app/Contents/MacOS/ebook-meta)}
+
+# encode_librivox <archive.org item/file> <dir> <title> <author> <readers> <ebook with the cover>
+encode_librivox() {
+  local item=$1 dir="$LIB/$2" title=$3 author=$4 readers=$5 ebook=$6
+  local src="$DL/librivox/${item#*/}" out="$LIB/$2/$3.m4b" art="$DL/librivox/${item%%/*}.cover.jpg"
+  fetch "https://archive.org/download/$item" "$src"
+  if [ -e "$out" ]; then
+    log "exists   $out"
+    return
+  fi
+  mkdir -p "$dir"
+  "$EBOOK_META" "$ebook" --get-cover="$art.full.jpg" >/dev/null
+  magick "$art.full.jpg" -resize '800x800>' -quality 80 "$art"
+  ffmpeg -nostdin -hide_banner -loglevel error -y -i "$src" -i "$art" \
+    -map 0:a:0 -map 1:v:0 -map_metadata -1 -map_chapters 0 \
+    -metadata title="$title" -metadata album="$title" -metadata artist="$author" \
+    -metadata album_artist="$author" -metadata composer="$readers" \
+    -c:a libfdk_aac -profile:a aac_he -ac 1 -b:a "$AUDIO_BITRATE" \
+    -c:v copy -disposition:v attached_pic \
+    -movflags +faststart -f ipod "$out.part.m4b"
+  mv "$out.part.m4b" "$out"
+  log "encoded  $out"
+}
+
+# A full-cast dramatic reading (1 h 48 min).
+encode_librivox earnest_0805_librivox/ImportanceOfBeingEarnestV2_librivox.m4b \
+  "The Importance of Being Earnest" "The Importance of Being Earnest" "Oscar Wilde" \
+  "Hans-Stefan Ducharme, Simon Ferland, Toby Paradis, Sarah A. Farnham, Nyssa Gatcombe, Rebecca Bailey, Eileen Nadeau" \
+  "$DL/standardebooks/oscar-wilde_the-importance-of-being-earnest.epub"
+# Read by Jeff Robinson (2 h 39 min).
+encode_librivox christmascarol_1012_librivox/ChristmasCarolV3_librivox.m4b \
+  "A Christmas Carol" "A Christmas Carol" "Charles Dickens" "Jeff Robinson" \
+  "$DL/standardebooks/charles-dickens_a-christmas-carol.epub"
+# Read by Eric Leach (2 h 31 min).
+encode_librivox alices_adventures_1005_librivox/AlicesAdventuresInWonderlandV5_librivox.m4b \
+  "Alice's Adventures in Wonderland" "Alice's Adventures in Wonderland" "Lewis Carroll" "Eric Leach" \
+  "$DL/standardebooks/lewis-carroll_alices-adventures-in-wonderland_john-tenniel.azw3"
 
 # ---------------------------------------------------------------------------
 # Pepper&Carrot by David Revoy (CC BY 4.0): English page images packed into CBZ

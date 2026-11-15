@@ -2,7 +2,7 @@
   "version": 1,
   "title": "There are no Shortcuts",
   "sort_title": "There are no Shortcuts",
-  "description": "Pepper\u0026Carrot by David Revoy, https://www.peppercarrot.com, CC BY 4.0. Pages downscaled and packed into CBZ for the Shisho demo.",
+  "description": "Pepper&Carrot by David Revoy, https://www.peppercarrot.com, CC BY 4.0. Pages downscaled and packed into CBZ for the Shisho demo.",
   "authors": [
     {
       "name": "David Revoy",
@@ -19,8 +19,8 @@
   ],
   "series": [
     {
-      "name": "Pepper\u0026Carrot",
-      "sort_name": "Pepper\u0026Carrot",
+      "name": "Pepper&Carrot",
+      "sort_name": "Pepper&Carrot",
       "number": 25,
       "sort_order": 1
     }
@@ -30,6 +30,6 @@
     "Fantasy"
   ],
   "tags": [
-    "webcomic"
+    "Webcomic"
   ]
 }

@@ -6,5 +6,6 @@ The media, covers, sidecars, and prepared database served by the Shisho Public D
 - `config/shisho.db`: the prepared database. `config/cache/` is gitignored.
 - `CORPUS.md`: per-work source, license basis, credit, and modifications. Read it before adding anything.
 - `build-corpus.sh`: reproduces the downloads and conversions.
+- `reading-history/`: writes the `demo` account's sample reading history into the prepared database (`cd reading-history && go run .`).
 
 A push to `master` triggers a demo deploy in `shishobooks/shisho`. The authoring loop is documented in that repository's `demo/README.md`.
